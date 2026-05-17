@@ -18,17 +18,14 @@ export default function Home() {
       {/* HEADER */}
       <div className="bg-[#3b1f0a] px-6 py-10 text-center border-b-4 border-[#c8973a]">
         <p className="text-[#c8973a] text-xs tracking-[0.3em] uppercase mb-2 font-mono">
-           West Asheville, NC
+          Chapel Hill, NC
         </p>
         <h1 className="font-serif text-5xl font-black text-[#f5edd8] leading-none">
-          Haywood Road
+          Where campus memory
         </h1>
         <h2 className="font-serif text-4xl italic text-[#c8973a] leading-none mt-1">
-          Ledger
+          and music run together.
         </h2>
-        <p className="text-[#e8d9b8] text-sm italic mt-3 opacity-70">
-          Along Haywood Road
-        </p>
         <div className="flex items-center justify-center gap-3 mt-4 text-[#c8973a] opacity-50 text-sm">
           <span>☕</span><span>✦</span><span>☕</span>
         </div>
@@ -37,14 +34,9 @@ export default function Home() {
       {/* INTRO */}
       <div className="max-w-2xl mx-auto px-6 py-10">
         <p className="font-serif text-lg leading-relaxed text-[#1a1208]">
-          Haywood Road has carried people west for over a century,
-          first as the old turnpike toward Haywood County. Today it
-          holds ten coffee shops that each feel like their own place.
-        </p>
-        <p className="font-serif text-lg leading-relaxed text-[#1a1208] mt-4">
-          This passport is a way to walk it. Start on the east
-          end and keep going. After I-240 it gets quieter. That's
-          where the road opens up.
+          Ten stops from Carrboro to the Planetarium —
+          bookstores, old counters, a century-old diner, and the
+          venue that made Franklin Street matter.
         </p>
 
         {/* CTA */}
@@ -56,7 +48,7 @@ export default function Home() {
                      hover:translate-y-[-1px] hover:shadow-[4px_4px_0_#3b1f0a]
                      transition-all"
         >
-          Start Your Passport
+          Start walking →
         </Link>
 
         <Link
@@ -76,9 +68,9 @@ export default function Home() {
           <div className="flex-1 border-t border-dashed border-[#6b3f1e] opacity-30" />
         </div>
 
-        {/* East Haywood stops */}
+        {/* Carrboro End stops */}
         <p className="font-mono text-[11px] tracking-widest text-[#6b3f1e] opacity-80 uppercase mb-4 border-l-2 border-[#c8973a]/40 pl-3">
-          East Haywood
+          The Carrboro End
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-4">
@@ -114,9 +106,9 @@ export default function Home() {
           ))}
         </div>
 
-        {/* West Haywood stops */}
+        {/* Campus Edge stops */}
         <p className="font-mono text-[11px] tracking-widest text-[#6b3f1e] opacity-80 uppercase mb-4 border-l-2 border-[#c8973a]/40 pl-3">
-          West Haywood
+          The Campus Edge
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -153,43 +145,43 @@ export default function Home() {
         </div>
       </div>
 
-      {/* HYGGE FIVE */}
-      <div className="max-w-2xl mx-auto px-6 pb-10">
-        <div className="mt-6 p-6 bg-white/60 backdrop-blur-sm border border-[#6b3f1e]/30 rounded-sm
-                        shadow-[0_2px_12px_rgba(59,31,10,0.10)]">
-          <p className="font-mono text-[10px] tracking-widest text-[#5a7a4a] uppercase mb-1">
-            🕯 Hidden Collection
-          </p>
-          <p className="font-serif text-lg font-bold text-[#3b1f0a]">
-            The Hygge Five
-          </p>
-          <p className="font-serif italic text-sm text-[#6b3f1e] mt-1 leading-relaxed">
-            Five rooms where time slows. One began in Prague
-            in 1993. Find all five.
-          </p>
-          <div className="flex flex-wrap gap-2 mt-3">
-            {hyggieFive.map(shop => (
-              <span
-                key={shop.id}
-                className="text-xs font-mono px-2 py-1 rounded-sm text-white opacity-80"
-                style={{ backgroundColor: shop.selloColor }}
-              >
-                {shop.name.split(' ')[0]}
-              </span>
-            ))}
+      {/* HYGGE FIVE — only renders if data has hygge:true entries */}
+      {hyggieFive.length > 0 && (
+        <div className="max-w-2xl mx-auto px-6 pb-10">
+          <div className="mt-6 p-6 bg-white/60 backdrop-blur-sm border border-[#6b3f1e]/30 rounded-sm
+                          shadow-[0_2px_12px_rgba(59,31,10,0.10)]">
+            <p className="font-mono text-[10px] tracking-widest text-[#5a7a4a] uppercase mb-1">
+              🕯 Hidden Collection
+            </p>
+            <p className="font-serif text-lg font-bold text-[#3b1f0a]">
+              The Hygge Five
+            </p>
+            <p className="font-serif italic text-sm text-[#6b3f1e] mt-1 leading-relaxed">
+              Five rooms where time slows. One began in Prague
+              in 1993. Find all five.
+            </p>
+            <div className="flex flex-wrap gap-2 mt-3">
+              {hyggieFive.map(shop => (
+                <span
+                  key={shop.id}
+                  className="text-xs font-mono px-2 py-1 rounded-sm text-white opacity-80"
+                  style={{ backgroundColor: shop.selloColor }}
+                >
+                  {shop.name.split(' ')[0]}
+                </span>
+              ))}
+            </div>
           </div>
         </div>
-      </div>
+      )}
 
       {/* FOOTER */}
       <div className="bg-[#3b1f0a] px-6 py-8 text-center border-t-2 border-[#c8973a]">
         <p className="font-serif italic text-[#e8d9b8] text-sm opacity-70 leading-relaxed">
-          Made with love by a seven-year West Asheville resident.
-          <br />
-          These aren't just coffee shops — they're the living room of the neighborhood.
+          A walking passport for Franklin Street — Carrboro to the Planetarium.
         </p>
         <p className="font-mono text-[10px] text-[#c8973a] opacity-50 tracking-widest mt-4">
-          #HaywoodHoppers · #WestAVLCoffee · #AVLLocal
+          #FranklinStreetWalk · #ChapelHill
         </p>
       </div>
 

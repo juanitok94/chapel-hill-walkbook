@@ -3,6 +3,11 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --color-parchment: #F5F0E8;
+  --color-espresso: #1A2A3A;
+  --color-gold: #8B7A3A;
+  --color-rust: #5C2A2A;
+  --color-ink: #0F1A28;
 }
 
 @theme inline {

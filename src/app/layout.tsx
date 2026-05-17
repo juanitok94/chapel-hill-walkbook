@@ -24,8 +24,9 @@ const ibmMono = IBM_Plex_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Haywood Road Ledger — West Asheville Coffee Walk',
-  description: 'A walking ledger for Haywood Road, West Asheville NC. Ten stops. One road. Walk it.',
+  title: 'Franklin Street Walkbook',
+  description: "A walking passport for Franklin Street and beyond — from Cat's Cradle in Carrboro to the Planetarium at the eastern edge of UNC. Chapel Hill, North Carolina.",
+  keywords: ['Chapel Hill', 'Franklin Street', 'Carrboro', 'UNC', 'walking guide', 'North Carolina', "Cat's Cradle"],
 }
 
 export default function RootLayout({

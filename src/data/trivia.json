@@ -1,100 +1,72 @@
 [
   {
-    "shopId": "cooperative-coffee-roasters",
-    "question": "Cooperative roasts their own beans in-house. What are the names of their two signature roast lines?",
-    "answer": "Gravity and Levity — two named roasts that regulars request by name. The names say everything about how they think about coffee.",
-    "difficulty": "local",
-    "category": "coffee-culture"
+    "id": "cats-cradle-history",
+    "stopId": "cats-cradle",
+    "question": "Cat's Cradle opened in Chapel Hill in 1969. Name one major artist who played there before becoming famous.",
+    "answer": "Nirvana played Cat's Cradle in 1991, just before Nevermind came out. Arcade Fire, Wilco, and hundreds of other artists played here on the way up. The venue is one of the most respected small rooms in American music.",
+    "category": "music"
   },
   {
-    "shopId": "battlecat-coffee-bar",
-    "question": "BattleCat is known for a savory pastry that's technically a Czech-Texan street food. What is it, and what's the best flavor?",
-    "answer": "Kolaches — doughy pastries filled with sausage, cheese, or jalapeño. The jalapeño is the answer, but it sells out by 9am on weekends.",
-    "difficulty": "visitor",
+    "id": "als-founding",
+    "stopId": "als-burger-shack",
+    "question": "What makes a smash burger different from a regular burger?",
+    "answer": "The patty is smashed flat against a hot griddle immediately after hitting the surface, maximizing the Maillard reaction — the chemical process that creates the brown crust. The result is more crust, more flavor, and a thinner patty than a hand-formed burger.",
     "category": "food"
   },
   {
-    "shopId": "asheville-kava-coffee",
-    "question": "Kava X Coffee serves kava alongside espresso. Kava is a traditional calming beverage from which part of the world?",
-    "answer": "The Pacific Islands — particularly Fiji, Vanuatu, and Tonga. Made from the root of the pepper plant, kava is used socially and ceremonially for its calming effects.",
-    "difficulty": "visitor",
-    "category": "culture"
-  },
-  {
-    "shopId": "haywood-famous",
-    "question": "Haywood Famous specializes in Cuban coffee. What's the difference between a cortadito and a café con leche?",
-    "answer": "A cortadito is espresso cut with a small amount of steamed milk — bold and strong. A café con leche is espresso with roughly equal parts steamed milk — much creamier and milder. Eva's version of both is the real thing.",
-    "difficulty": "visitor",
-    "category": "coffee-culture"
-  },
-  {
-    "shopId": "deep-time-coffee",
-    "question": "Deep Time Coffee takes its name from a geological concept. What does 'deep time' actually mean in geology, and approximately how old is the Earth?",
-    "answer": "Deep time refers to the vast timescales of Earth's history — the planet is approximately 4.5 billion years old. The concept was developed by geologist James Hutton in the 18th century. Quite a name for a coffee shop that makes every cup feel unhurried.",
-    "difficulty": "curious",
-    "category": "history"
-  },
-  {
-    "shopId": "bad-manners-coffee",
-    "question": "Bad Manners sources their coffee from Tandem Coffee Roasters. Where is Tandem based, and what makes their roasting style distinctive?",
-    "answer": "Tandem is based in Portland, Maine — one of the country's most respected specialty roasters. They're known for bright, clean roasts that highlight origin character rather than roasting flavor. Maine quietly punches above its weight in specialty coffee.",
-    "difficulty": "curious",
-    "category": "coffee-culture"
-  },
-  {
-    "shopId": "rowan-coffee",
-    "question": "Rowan serves oysters on Friday afternoons. The classic wine pairing for oysters is a crisp white from which French region?",
-    "answer": "Muscadet from the Loire Valley is the classic match — high acid, mineral, and bone dry. Chablis works too. Both cut through the brine without overwhelming it. Rowan probably has a perfect pairing already selected.",
-    "difficulty": "curious",
-    "category": "food-and-drink"
-  },
-  {
-    "shopId": "odds-cafe",
-    "question": "Odd's signature Aztec mocha gets its kick from a spice the ancient Aztecs combined with chocolate. What spice, and what did they call the original drink?",
-    "answer": "Chili pepper — capsaicin. The Aztecs called their ceremonial cacao and chili drink xocolatl. It was bitter, spicy, and nothing like modern hot chocolate. Odd's Aztec mocha carries that tradition into a latte.",
-    "difficulty": "visitor",
-    "category": "history"
-  },
-  {
-    "shopId": "plant-bar",
-    "question": "Plant Bar serves drinks featuring Blue Lotus. Blue lotus was a sacred plant in which ancient civilization, and what was it used for?",
-    "answer": "Ancient Egypt — Nymphaea caerulea (blue lotus) appears throughout Egyptian art and hieroglyphics. It was associated with the sun god Ra and used in ceremonial contexts for its mildly euphoric and calming properties. The Egyptians were ahead of the wellness trend by about 3,000 years.",
-    "difficulty": "curious",
-    "category": "history"
-  },
-  {
-    "shopId": "izzys-coffee-house",
-    "question": "Izzy's sits at the far west end of Haywood Road. The road itself is named after its western destination — what county does Haywood Road lead to?",
-    "answer": "Haywood County — the road was originally the Western Turnpike from Asheville toward Waynesville in Haywood County. That's where the name comes from. West Asheville was built along a road named for somewhere further west, which feels right.",
-    "difficulty": "local",
-    "category": "history"
-  },
-  {
-    "shopId": "owl-bakery",
-    "question": "OWL Bakery's cardamom bun has been described as a cinnamon roll and a croissant having a very good idea together. What technique makes a croissant's layers possible?",
-    "answer": "Lamination — repeatedly folding cold butter into dough to create hundreds of distinct layers. The process takes days and requires careful temperature control. When done well, the layers shatter and melt simultaneously. OWL does it well.",
-    "difficulty": "curious",
+    "id": "lantern-award",
+    "stopId": "lantern",
+    "question": "What is the James Beard Award, and why does it matter for Lantern?",
+    "answer": "The James Beard Awards are often called the Oscars of the food world — given annually to the best chefs, restaurants, and food media in the United States. Lantern has been a finalist multiple times, which means it's considered one of the best restaurants in the American South.",
     "category": "food"
   },
   {
-    "shopId": "flora-forage",
-    "question": "Forage at Flora serves Tulsi Rose tea as a signature drink. Tulsi is also known as Holy Basil — where does it originate and what is it traditionally used for?",
-    "answer": "Tulsi originates in the Indian subcontinent and has been used in Ayurvedic medicine for over 3,000 years. It's considered an adaptogen — believed to help the body manage stress. The combination with rose makes for a floral, calming drink that's unlike anything else on Haywood Road.",
-    "difficulty": "curious",
-    "category": "culture"
+    "id": "crunkleton-spirits",
+    "stopId": "the-crunkleton",
+    "question": "The Crunkleton is known for its rye whiskey selection. What's the difference between rye and bourbon?",
+    "answer": "Both are American whiskeys, but bourbon must be made from at least 51% corn mash, while rye must be at least 51% rye grain. Rye is spicier and drier; bourbon is sweeter. Both must be aged in new charred oak barrels.",
+    "category": "food"
   },
   {
-    "shopId": "firestorm-books-coffee",
-    "question": "Firestorm Books & Coffee is worker-owned and describes itself as an anti-capitalist business. What formal decision-making process does the collective use internally?",
-    "answer": "Formal consensus — a process where decisions require agreement from all participants rather than majority vote. Each member has equal voice and veto power. It's slower than voting but produces decisions the whole group can commit to. Firestorm has run this way since 2008.",
-    "difficulty": "local",
-    "category": "culture"
+    "id": "epilogue-chocolate",
+    "stopId": "epilogue-books",
+    "question": "What is the difference between hot cocoa and hot chocolate?",
+    "answer": "Hot cocoa is made from cocoa powder (which has had the fat removed). Hot chocolate is made from actual melted chocolate, which includes cocoa butter. The result is richer, thicker, and more complex. Epilogue serves the real thing.",
+    "category": "food"
   },
   {
-    "shopId": "mocha-box-coffee",
-    "question": "Mocha Box specializes in Yemeni coffee culture. Yemen is considered the birthplace of coffee cultivation — approximately when did coffee drinking as a practice begin there?",
-    "answer": "Around the 15th century in the Sufi monasteries of Yemen — monks used coffee to stay awake for nighttime prayer. The port city of Mocha (Al-Mukha) gave its name to the mocha coffee drink and was the world's primary coffee export hub for centuries. Mocha Box carries that history.",
-    "difficulty": "curious",
+    "id": "carolina-coffee-age",
+    "stopId": "carolina-coffee-shop",
+    "question": "Carolina Coffee Shop is North Carolina's oldest restaurant. What year did it open?",
+    "answer": "1922 — over a century ago, when the University of North Carolina enrollment was around 1,500 students. It has been on East Franklin Street serving breakfast and lunch ever since.",
+    "category": "history"
+  },
+  {
+    "id": "suttons-milkshake",
+    "stopId": "suttons-drug-store",
+    "question": "Sutton's Drug Store opened in 1923. What was the original purpose of a drug store soda fountain?",
+    "answer": "Pharmacies added soda fountains in the late 1800s because carbonated water was originally considered medicinal. The soda jerk became a cultural institution — a meeting place where students, workers, and neighbors all mixed. Sutton's is one of the last functioning examples in North Carolina.",
+    "category": "history"
+  },
+  {
+    "id": "top-of-hill-brewing",
+    "stopId": "top-of-the-hill",
+    "question": "Top of the Hill was one of the first craft breweries in North Carolina. When did the NC craft beer movement really take off?",
+    "answer": "North Carolina legalized high-gravity beer (above 6% ABV) in 2005, which unleashed the craft brewery explosion. Before that, breweries were limited to session-strength beers. Today NC has over 400 craft breweries — one of the top states in the country.",
+    "category": "local"
+  },
+  {
+    "id": "ackland-collection",
+    "stopId": "ackland-art-museum",
+    "question": "The Ackland Art Museum has a collection spanning 5,000 years. What is its most notable collection strength?",
+    "answer": "The Asian art collection — particularly Japanese woodblock prints, Chinese ceramics, and Indian sculpture. The museum also has strong holdings in Old Master works and 20th-century American art. All free to the public.",
+    "category": "art"
+  },
+  {
+    "id": "morehead-nasa",
+    "stopId": "morehead-planetarium",
+    "question": "Morehead Planetarium trained NASA astronauts. Which Apollo 11 crew member trained here?",
+    "answer": "Neil Armstrong, Buzz Aldrin, and Michael Collins — the entire Apollo 11 crew — trained at Morehead. The planetarium was used by NASA from the Mercury program through Apollo to train astronauts in celestial navigation. The equipment they trained on is still in use today.",
     "category": "history"
   }
 ]
