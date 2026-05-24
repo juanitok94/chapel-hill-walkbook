@@ -24,9 +24,9 @@ const ibmMono = IBM_Plex_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Franklin Street Walkbook',
-  description: "A walking passport for Franklin Street and beyond — from Cat's Cradle in Carrboro to the Planetarium at the eastern edge of UNC. Chapel Hill, North Carolina.",
-  keywords: ['Chapel Hill', 'Franklin Street', 'Carrboro', 'UNC', 'walking guide', 'North Carolina', "Cat's Cradle"],
+  title: 'Boulder Walkbook',
+  description: "A walking passport for Pearl Street — coffee, dispensaries, and trails from Eben Fine Park to the Flatirons. Boulder, Colorado.",
+  keywords: ['Boulder', 'Pearl Street', 'Chautauqua', 'CU Buffs', 'walking guide', 'Colorado', 'Flatirons', 'Boulder Creek'],
 }
 
 export default function RootLayout({

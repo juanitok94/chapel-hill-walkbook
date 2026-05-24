@@ -57,8 +57,8 @@ export default function StopPage({ params }: { params: Promise<{ slug: string }>
   const coreIndex = coreStops.findIndex(s => s.id === slug)
   const prevStop = coreIndex > 0 ? coreStops[coreIndex - 1] : null
   const nextStop = coreIndex < coreStops.length - 1 ? coreStops[coreIndex + 1] : null
-  // Is this the Rosemary St crossing? (zone shift mid-walk)
-  const crossingRosemary = prevStop?.zone === 'north' && shop.zone === 'south'
+  // Is this the 16th St crossing? (west → central zone shift)
+  const crossing16th = prevStop?.zone === 'west' && shop.zone === 'central'
 
   function handleStamp() {
     if (stamped) return
@@ -100,7 +100,7 @@ export default function StopPage({ params }: { params: Promise<{ slug: string }>
 
         {isCore && (
           <p className="font-mono text-[10px] tracking-widest text-white/50 uppercase mt-3">
-            Stop {shop.passportStop} of 10 · {shop.zone === 'north' ? 'Campus Edge' : 'Carrboro End'}
+            Stop {shop.passportStop} of 10 · {shop.zone === 'west' ? 'West Pearl' : shop.zone === 'east' ? 'East Pearl' : 'Central Pearl'}
           </p>
         )}
 
@@ -353,7 +353,7 @@ export default function StopPage({ params }: { params: Promise<{ slug: string }>
             if (navigator.share) {
               navigator.share({
                 title: shop.name,
-                text: `I just stamped ${shop.name} on the Franklin Street Walkbook.`,
+                text: `I just stamped ${shop.name} on the Boulder Walkbook.`,
                 url: window.location.href,
               })
             } else {
@@ -372,12 +372,12 @@ export default function StopPage({ params }: { params: Promise<{ slug: string }>
         {/* PREV / NEXT NAV */}
         {isCore && (
           <div className="mt-10">
-            {/* Rosemary St crossing callout */}
-            {crossingRosemary && (
+            {/* 16th St crossing callout */}
+            {crossing16th && (
               <div className="flex items-center gap-3 mb-4">
                 <div className="flex-1 h-px bg-[#b84c1a] opacity-40" />
                 <span className="font-mono text-[10px] text-[#b84c1a] tracking-widest px-2">
-                  You crossed Rosemary St
+                  You crossed 16th St
                 </span>
                 <div className="flex-1 h-px bg-[#b84c1a] opacity-40" />
               </div>

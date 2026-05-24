@@ -1,16 +1,14 @@
-# Haywood Hoppers
+# Boulder Walkbook
 
-A digital coffee passport for Haywood Road — West Asheville's main street.
+A digital coffee passport for Pearl Street — Boulder's main corridor.
 
-Ten coffee shops. One road. Walk it.
+Ten coffee stops. One road. Walk it.
 
 ## What this is
 
 A warmly narrated neighborhood guide and passport game built on the
 Camino de Santiago pilgrim passport model. Collect stamps at each of
-the 10 core coffee stops on Haywood Road. Earn your True Local badge.
-
-Built with love by a seven-year West Asheville resident.
+the 10 core coffee stops on Pearl Street. Earn your True Boulder Walker badge.
 
 ## Stack
 
@@ -22,8 +20,8 @@ Built with love by a seven-year West Asheville resident.
 
 ## Run locally
 
-git clone https://github.com/[yourusername]/wavl-guide.git
-cd wavl-guide
+git clone https://github.com/[yourusername]/boulder-walkbook.git
+cd boulder-walkbook
 npm install
 npm run dev
 
@@ -32,12 +30,10 @@ Open http://localhost:3000
 ## Data
 
 All business data lives in /src/data/
-- shops.json — 49 stops, 9 layers, full data model
+- shops.json — 17 stops, 8 layers, full data model
 - layers.json — layer definitions
 - badges.json — badge tiers
 - trivia.json — per-stop trivia
-
-Community corrections welcome via PR to the JSON files.
 
 ## Design principles
 
@@ -47,4 +43,4 @@ Community corrections welcome via PR to the JSON files.
 
 ## Hashtags
 
-#HaywoodHoppers #WestAVLCoffee #AVLLocal
+#PearlStreetWalk #Boulder #CUBuffs

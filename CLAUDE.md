@@ -1,18 +1,19 @@
-# Haywood Hoppers — Claude Code Project Brief
+# Boulder Walkbook — Claude Code Project Brief
 > John Kean · Peachy Kean DevOps LLC · Asheville, NC
-> Last updated: March 27, 2026
+> Last updated: 2026-05-23
 
 ## What This Is
-Haywood Hoppers is a mobile-first digital coffee passport
-for Haywood Road, West Asheville, NC. 10 core stops,
-east to west. Users walk the road, stamp each stop,
-discover hidden collections. No auth, no login,
+Boulder Walkbook is a mobile-first digital coffee passport
+for Pearl Street, Boulder, CO. 10 core stops from
+Eben Fine Park (west) to Fresh Baked (east). Users walk
+the corridor, stamp each stop, discover layers (trails,
+dispensaries, restaurants). No auth, no login,
 localStorage only.
 
 ## Live URLs
-- Production: wavl-guide.vercel.app
-- Repo: github.com/juanitok94/wavl-guide
-- Local: localhost:3000 (npm run dev in C:\wavl-guide)
+- Production: boulder-walkbook.vercel.app (TBD)
+- Repo: github.com/juanitok94/boulder-walkbook (TBD)
+- Local: localhost:3000 (npm run dev in C:\boulder)
 
 ## Tech Stack
 - Next.js 16 App Router
@@ -26,7 +27,7 @@ localStorage only.
 2. Camino — journey, earned progress, east to west
 3. Krug — don't make me think, clarity first
 4. Mobile-first — primary user is holding a phone
-   on Haywood Road. Desktop is graceful enhancement only.
+   on Pearl Street. Desktop is graceful enhancement only.
 5. Human first — if it feels like a generic app,
    it's wrong. It should feel like West Asheville.
 

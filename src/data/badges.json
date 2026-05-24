@@ -1,32 +1,42 @@
 [
   {
     "id": "curious",
-    "label": "Curious About Franklin",
+    "label": "Boulder Curious",
     "threshold": 3,
     "type": "core",
-    "icon": "☕",
-    "color": "#8B5E3A",
-    "description": "You've started walking the street.",
+    "icon": "👀",
+    "color": "#CFB87C",
+    "description": "Three in. You've started walking Pearl Street.",
     "compostela": false
   },
   {
     "id": "regular",
-    "label": "Franklin Regular",
+    "label": "Pearl Street Regular",
     "threshold": 7,
     "type": "core",
-    "icon": "🎸",
-    "color": "#1A3A6A",
+    "icon": "☕",
+    "color": "#CFB87C",
     "description": "Seven in. You know this corridor.",
     "compostela": false
   },
   {
     "id": "local",
-    "label": "True Franklin Walker",
+    "label": "True Boulder Walker",
     "threshold": 10,
     "type": "core",
-    "icon": "⭐",
-    "color": "#2A4A2A",
-    "description": "You walked Franklin and Main, Carrboro to the Planetarium. This is yours.",
+    "icon": "🦬",
+    "color": "#000000",
+    "description": "You walked Pearl Street end to end. Eben Fine to Fresh Baked. This is yours.",
     "compostela": true
+  },
+  {
+    "id": "trail-walker",
+    "label": "Creek & Flatirons",
+    "threshold": 3,
+    "type": "trail",
+    "icon": "🏔️",
+    "color": "#000000",
+    "description": "You hiked in, walked the mall, hiked out. The full Boulder day.",
+    "compostela": false
   }
 ]

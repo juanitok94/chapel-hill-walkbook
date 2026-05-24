@@ -18,13 +18,13 @@ export default function Home() {
       {/* HEADER */}
       <div className="bg-[#56A0D3] px-6 py-10 text-center border-b-4 border-[#003087]">
         <p className="text-[#c8973a] text-xs tracking-[0.3em] uppercase mb-2 font-mono">
-          Chapel Hill, NC
+          Boulder, CO
         </p>
         <h1 className="font-serif text-5xl font-black text-[#f5edd8] leading-none">
-          Where campus memory
+          Pearl Street. Boulder Creek.
         </h1>
         <h2 className="font-serif text-4xl italic text-[#c8973a] leading-none mt-1">
-          and music run together.
+          The Flatirons.
         </h2>
         <div className="flex items-center justify-center gap-3 mt-4 text-[#c8973a] opacity-50 text-sm">
           <span>☕</span><span>✦</span><span>☕</span>
@@ -34,9 +34,8 @@ export default function Home() {
       {/* INTRO */}
       <div className="max-w-2xl mx-auto px-6 py-10">
         <p className="font-serif text-lg leading-relaxed text-[#1a1208]">
-          Ten stops from Carrboro to the Planetarium —
-          bookstores, old counters, a century-old diner, and the
-          venue that made Franklin Street matter.
+          Ten coffee stops from Eben Fine Park to east Pearl —
+          plus trails, dispensaries, and the dining hall at the base of the Flatirons.
         </p>
 
         {/* CTA */}
@@ -68,13 +67,13 @@ export default function Home() {
           <div className="flex-1 border-t border-dashed border-[#6b3f1e] opacity-30" />
         </div>
 
-        {/* Carrboro End stops */}
+        {/* West Pearl stops */}
         <p className="font-mono text-[11px] tracking-widest text-[#6b3f1e] opacity-80 uppercase mb-4 border-l-2 border-[#c8973a]/40 pl-3">
-          The Carrboro End
+          West Pearl
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-4">
-          {coreStops.filter(s => s.zone === 'north').map(shop => (
+          {coreStops.filter(s => s.zone === 'west').map(shop => (
             <Link
               key={shop.id}
               href={`/stop/${shop.id}`}
@@ -106,13 +105,13 @@ export default function Home() {
           ))}
         </div>
 
-        {/* Campus Edge stops */}
+        {/* East Pearl stops */}
         <p className="font-mono text-[11px] tracking-widest text-[#6b3f1e] opacity-80 uppercase mb-4 border-l-2 border-[#c8973a]/40 pl-3">
-          The Campus Edge
+          East Pearl
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-          {coreStops.filter(s => s.zone === 'south').map(shop => (
+          {coreStops.filter(s => s.zone !== 'west').map(shop => (
             <Link
               key={shop.id}
               href={`/stop/${shop.id}`}
@@ -178,10 +177,10 @@ export default function Home() {
       {/* FOOTER */}
       <div className="bg-[#56A0D3] px-6 py-8 text-center border-t-2 border-[#003087]">
         <p className="font-serif italic text-[#e8d9b8] text-sm opacity-70 leading-relaxed">
-          A walking passport for Franklin Street — Carrboro to the Planetarium.
+          A walking passport for Pearl Street — Eben Fine Park to Fresh Baked.
         </p>
         <p className="font-mono text-[10px] text-[#c8973a] opacity-50 tracking-widest mt-4">
-          #FranklinStreetWalk · #ChapelHill
+          #PearlStreetWalk · #Boulder
         </p>
       </div>
 

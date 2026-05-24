@@ -14,8 +14,8 @@ const coreStops = shops
   .filter(s => s.passportType === 'core')
   .sort((a, b) => a.passportStop - b.passportStop)
 
-const northStops = coreStops.filter(s => s.zone === 'north')
-const southStops = coreStops.filter(s => s.zone === 'south')
+const westStops = coreStops.filter(s => s.zone === 'west')
+const eastStops = coreStops.filter(s => s.zone !== 'west')
 
 export default function PassportPage() {
   const [stamps, setStamps] = useState<StampRecord>({})
@@ -56,7 +56,7 @@ export default function PassportPage() {
           className="font-mono text-[10px] tracking-widest text-[#c8973a] opacity-60
                      hover:opacity-100 transition-opacity uppercase"
         >
-          ← Franklin Street Walkbook
+          ← Boulder Walkbook
         </Link>
         <h1 className="font-serif text-3xl font-black text-[#f5edd8] mt-3">
           Your Passport
@@ -120,16 +120,16 @@ export default function PassportPage() {
       {/* STAMP GRID */}
       <div className="max-w-lg mx-auto px-6 py-6">
 
-        {/* North section */}
+        {/* West Pearl section */}
         <div className="flex items-center gap-3 mb-4">
           <p className="font-mono text-[10px] tracking-widest text-[#6b3f1e] opacity-60 uppercase whitespace-nowrap">
-            The Carrboro End
+            West Pearl
           </p>
           <div className="flex-1 border-t border-dashed border-[#6b3f1e] opacity-30" />
         </div>
 
         <div className="grid grid-cols-2 gap-3 mb-4">
-          {northStops.map(shop => (
+          {westStops.map(shop => (
             <StampCard
               key={shop.id}
               shop={shop}
@@ -140,25 +140,25 @@ export default function PassportPage() {
           ))}
         </div>
 
-        {/* I-240 divider */}
+        {/* 16th St divider */}
         <div className="flex items-center gap-3 my-5">
           <div className="flex-1 h-px bg-[#b84c1a] opacity-40" />
           <span className="font-mono text-[10px] text-[#b84c1a] tracking-widest px-2">
-            Rosemary St
+            16th St
           </span>
           <div className="flex-1 h-px bg-[#b84c1a] opacity-40" />
         </div>
 
-        {/* South section */}
+        {/* East Pearl section */}
         <div className="flex items-center gap-3 mb-4">
           <p className="font-mono text-[10px] tracking-widest text-[#6b3f1e] opacity-60 uppercase whitespace-nowrap">
-            The Campus Edge
+            East Pearl
           </p>
           <div className="flex-1 border-t border-dashed border-[#6b3f1e] opacity-30" />
         </div>
 
         <div className="grid grid-cols-2 gap-3">
-          {southStops.map(shop => (
+          {eastStops.map(shop => (
             <StampCard
               key={shop.id}
               shop={shop}
@@ -179,13 +179,13 @@ export default function PassportPage() {
               True Local
             </p>
             <p className="font-serif italic text-sm text-[#e8d9b8] mt-2 leading-relaxed">
-              You walked Franklin Street. Carrboro to the Planetarium.
-              Past the bookstores and the old counters and the century diner,
-              across campus, to the edge of the road.
-              This street is yours now.
+              You walked Pearl Street. Eben Fine Park to Fresh Baked.
+              Past the roasters and the bookstore and the cycling club cafe,
+              along the creek, to the base of the Flatirons.
+              This walk is yours now.
             </p>
             <p className="font-mono text-[10px] text-[#c8973a] opacity-50 mt-4 tracking-widest">
-              #FranklinStreetWalk · #TrueLocal
+              #PearlStreetWalk · #TrueLocal
             </p>
           </div>
         </div>

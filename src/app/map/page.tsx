@@ -11,9 +11,9 @@ const shops = shopsData as any[]
 const layers = layersData as any[]
 
 function toMapX(lng: number, mapWidth: number): number {
-  const THRESHOLD = -79.065
-  const MIN = -79.080
-  const MAX = -79.050
+  const THRESHOLD = -105.275
+  const MIN = -105.305
+  const MAX = -105.255
   if (lng < THRESHOLD) {
     const t = (lng - MIN) / (THRESHOLD - MIN)
     return t * mapWidth * 0.20
@@ -27,8 +27,8 @@ function lonToPercent(lon: number, flip: boolean): number {
   return flip ? 100 - pct : pct
 }
 
-// Rosemary St / Franklin intersection — natural midpoint of the walk
-const I240_LON = -79.0553
+// 16th St / central Pearl midpoint
+const I240_LON = -105.275
 
 // Sort core stops for the route line
 const coreStops = shops
@@ -91,7 +91,7 @@ export default function MapPage() {
           className="font-mono text-[10px] tracking-widest text-[#c8973a] opacity-60
                      hover:opacity-100 transition-opacity uppercase"
         >
-          ← Franklin Street Walkbook
+          ← Boulder Walkbook
         </Link>
         <h1 className="font-serif text-3xl font-black text-[#f5edd8] mt-2">
           The Map
@@ -171,23 +171,9 @@ export default function MapPage() {
               <div className="absolute inset-0 bg-[#b84c1a] opacity-30" />
               <div className="absolute top-2 left-1/2 -translate-x-1/2 whitespace-nowrap">
                 <span className="font-mono text-[8px] text-[#b84c1a] tracking-widest bg-[#f5edd8]/80 px-1.5 py-0.5 rounded-sm">
-                  Rosemary St
+                  16th St
                 </span>
               </div>
-            </div>
-
-            {/* Secondary street labels */}
-            <div
-              className="absolute font-mono text-[8px] tracking-widest text-[#6b3f1e] opacity-30 uppercase"
-              style={{ top: '24px', left: `${lonToPercent(-82.576, flipped)}%`, transform: 'translateX(-50%)' }}
-            >
-              Riverview Dr
-            </div>
-            <div
-              className="absolute font-mono text-[8px] tracking-widest text-[#6b3f1e] opacity-30 uppercase"
-              style={{ top: '24px', left: `${lonToPercent(-82.598, flipped)}%`, transform: 'translateX(-50%)' }}
-            >
-              Patton Ave
             </div>
 
             {/* Zone labels */}
@@ -205,13 +191,13 @@ export default function MapPage() {
                     className="absolute font-mono text-[8px] tracking-widest text-[#6b3f1e] opacity-30 uppercase transition-all duration-500"
                     style={{ top: '8px', left: `${northCenter}%`, transform: 'translateX(-50%)' }}
                   >
-                    The Carrboro End
+                    West Pearl
                   </div>
                   <div
                     className="absolute font-mono text-[8px] tracking-widest text-[#6b3f1e] opacity-30 uppercase transition-all duration-500"
                     style={{ top: '8px', left: `${southCenter}%`, transform: 'translateX(-50%)' }}
                   >
-                    The Campus Edge
+                    East Pearl
                   </div>
                 </>
               )
@@ -496,7 +482,7 @@ export default function MapPage() {
                 {showDivider && (
                   <div className="flex items-center gap-3 my-2">
                     <div className="flex-1 h-px bg-[#b84c1a] opacity-30" />
-                    <span className="font-mono text-[9px] text-[#b84c1a] tracking-widest">Rosemary St</span>
+                    <span className="font-mono text-[9px] text-[#b84c1a] tracking-widest">16th St</span>
                     <div className="flex-1 h-px bg-[#b84c1a] opacity-30" />
                   </div>
                 )}

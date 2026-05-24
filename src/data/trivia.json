@@ -1,72 +1,72 @@
 [
   {
-    "id": "cats-cradle-history",
-    "stopId": "cats-cradle",
-    "question": "Cat's Cradle opened in Chapel Hill in 1969. Name one major artist who played there before becoming famous.",
-    "answer": "Nirvana played Cat's Cradle in 1991, just before Nevermind came out. Arcade Fire, Wilco, and hundreds of other artists played here on the way up. The venue is one of the most respected small rooms in American music.",
-    "category": "music"
+    "id": "trident-phones",
+    "stopId": "trident-booksellers",
+    "question": "Trident asks patrons not to use their phones inside. What's the idea behind it?",
+    "answer": "Trident has maintained a no-phones culture since long before it was fashionable. The bookstore side sets the tone — books invite a different kind of attention than a screen. The policy isn't strictly enforced but the signs are real, and most regulars honor it. It's one of the reasons the conversation in here is better than most coffee shops.",
+    "category": "culture"
   },
   {
-    "id": "als-founding",
-    "stopId": "als-burger-shack",
-    "question": "What makes a smash burger different from a regular burger?",
-    "answer": "The patty is smashed flat against a hot griddle immediately after hitting the surface, maximizing the Maillard reaction — the chemical process that creates the brown crust. The result is more crust, more flavor, and a thinner patty than a hand-formed burger.",
-    "category": "food"
+    "id": "laughing-goat-name",
+    "stopId": "laughing-goat",
+    "question": "Why is it called The Laughing Goat?",
+    "answer": "The name comes from an Ethiopian legend — a 9th century goat herder named Kaldi noticed his goats were unusually energetic after eating berries from a certain tree. He tried the berries himself and felt the same effect. He brought them to a monastery, where monks made a drink from them and found they could stay awake for evening prayers. Those berries were coffee. The dancing goats are the origin story of caffeine culture.",
+    "category": "culture"
   },
   {
-    "id": "lantern-award",
-    "stopId": "lantern",
-    "question": "What is the James Beard Award, and why does it matter for Lantern?",
-    "answer": "The James Beard Awards are often called the Oscars of the food world — given annually to the best chefs, restaurants, and food media in the United States. Lantern has been a finalist multiple times, which means it's considered one of the best restaurants in the American South.",
-    "category": "food"
-  },
-  {
-    "id": "crunkleton-spirits",
-    "stopId": "the-crunkleton",
-    "question": "The Crunkleton is known for its rye whiskey selection. What's the difference between rye and bourbon?",
-    "answer": "Both are American whiskeys, but bourbon must be made from at least 51% corn mash, while rye must be at least 51% rye grain. Rye is spicier and drier; bourbon is sweeter. Both must be aged in new charred oak barrels.",
-    "category": "food"
-  },
-  {
-    "id": "epilogue-chocolate",
-    "stopId": "epilogue-books",
-    "question": "What is the difference between hot cocoa and hot chocolate?",
-    "answer": "Hot cocoa is made from cocoa powder (which has had the fat removed). Hot chocolate is made from actual melted chocolate, which includes cocoa butter. The result is richer, thicker, and more complex. Epilogue serves the real thing.",
-    "category": "food"
-  },
-  {
-    "id": "carolina-coffee-age",
-    "stopId": "carolina-coffee-shop",
-    "question": "Carolina Coffee Shop is North Carolina's oldest restaurant. What year did it open?",
-    "answer": "1922 — over a century ago, when the University of North Carolina enrollment was around 1,500 students. It has been on East Franklin Street serving breakfast and lunch ever since.",
+    "id": "fresh-baked-history",
+    "stopId": "fresh-baked",
+    "question": "Fresh Baked opened in 2010. What was Colorado cannabis law like then?",
+    "answer": "In 2010, Colorado only had medical marijuana — recreational cannabis wasn't legal until Amendment 64 passed in November 2012, taking effect in 2013 with retail sales beginning January 2014. Fresh Baked opened as a medical dispensary and converted to recreational when the law changed. That makes them among the oldest continuously operating cannabis retailers in the state.",
     "category": "history"
   },
   {
-    "id": "suttons-milkshake",
-    "stopId": "suttons-drug-store",
-    "question": "Sutton's Drug Store opened in 1923. What was the original purpose of a drug store soda fountain?",
-    "answer": "Pharmacies added soda fountains in the late 1800s because carbonated water was originally considered medicinal. The soda jerk became a cultural institution — a meeting place where students, workers, and neighbors all mixed. Sutton's is one of the last functioning examples in North Carolina.",
+    "id": "boxcar-cinnamon-roll",
+    "stopId": "boxcar-coffee",
+    "question": "What makes Boxcar's cinnamon roll different from a classic one?",
+    "answer": "Boxcar uses laminated croissant dough instead of brioche or yeasted dough. Laminated dough is made by folding cold butter into the dough dozens of times — the same technique as a croissant — which creates distinct flaky layers rather than the soft, pillowy texture of a classic cinnamon roll. The result is denser, butterier, and more complex. The cream cheese frosting is deliberately restrained so it doesn't overwhelm.",
+    "category": "food"
+  },
+  {
+    "id": "dushanbe-teahouse-origin",
+    "stopId": "boulder-dushanbe-teahouse",
+    "question": "How did a Tajik teahouse end up in Boulder, Colorado?",
+    "answer": "Boulder and Dushanbe, Tajikistan (then part of the Soviet Union) became sister cities in 1987 — an unusual Cold War cultural exchange. Dushanbe gifted Boulder a traditional teahouse, which was handcrafted by Tajik artisans between 1987 and 1990 and shipped to Boulder in pieces. It took years to reassemble and install. The carved columns, hand-painted ceilings, and ceramic panels are all original Tajik craftsmanship. It opened to the public in 1998.",
     "category": "history"
   },
   {
-    "id": "top-of-hill-brewing",
-    "stopId": "top-of-the-hill",
-    "question": "Top of the Hill was one of the first craft breweries in North Carolina. When did the NC craft beer movement really take off?",
-    "answer": "North Carolina legalized high-gravity beer (above 6% ABV) in 2005, which unleashed the craft brewery explosion. Before that, breweries were limited to session-strength beers. Today NC has over 400 craft breweries — one of the top states in the country.",
-    "category": "local"
+    "id": "chautauqua-history",
+    "stopId": "chautauqua-park",
+    "question": "What is the Chautauqua movement, and why does it matter here?",
+    "answer": "The Chautauqua movement began in New York in 1874 as a summer education program for Sunday school teachers. It grew into a national phenomenon — traveling assemblies that brought lectures, concerts, and cultural programming to communities across America. Boulder's Chautauqua opened in 1898 as a Texas-Colorado joint venture, giving Texans a cool summer retreat near the Rockies. It's one of the few surviving original Chautauqua grounds in the country. The auditorium still hosts concerts. The cabins still rent.",
+    "category": "history"
   },
   {
-    "id": "ackland-collection",
-    "stopId": "ackland-art-museum",
-    "question": "The Ackland Art Museum has a collection spanning 5,000 years. What is its most notable collection strength?",
-    "answer": "The Asian art collection — particularly Japanese woodblock prints, Chinese ceramics, and Indian sculpture. The museum also has strong holdings in Old Master works and 20th-century American art. All free to the public.",
-    "category": "art"
+    "id": "flatirons-geology",
+    "stopId": "chautauqua-park",
+    "question": "What are the Flatirons made of, and how did they get that shape?",
+    "answer": "The Flatirons are made of Fountain Formation sandstone — sediment deposited by ancient rivers about 300 million years ago, when the area was a vast alluvial plain. When the Rocky Mountains began rising roughly 70 million years ago, the sedimentary layers were tilted steeply upward. Erosion then removed the softer surrounding rock, leaving the resistant sandstone slabs standing at their distinctive angle. The shape — flat on top, pointed at the base — is what gave them the name: they resemble old-fashioned clothes irons laid face-down.",
+    "category": "nature"
   },
   {
-    "id": "morehead-nasa",
-    "stopId": "morehead-planetarium",
-    "question": "Morehead Planetarium trained NASA astronauts. Which Apollo 11 crew member trained here?",
-    "answer": "Neil Armstrong, Buzz Aldrin, and Michael Collins — the entire Apollo 11 crew — trained at Morehead. The planetarium was used by NASA from the Mercury program through Apollo to train astronauts in celestial navigation. The equipment they trained on is still in use today.",
+    "id": "boulder-creek-path",
+    "stopId": "eben-fine-park",
+    "question": "How long is the Boulder Creek Path and where does it go?",
+    "answer": "The Boulder Creek Path runs 5.5 miles from Eben Fine Park in the west, through downtown, to the Stazio Ballfields past 55th Street in the east. It passes the Main Library, Civic Area Park, the Dushanbe Teahouse, and the CU Boulder campus. It connects to several other trail networks including Goose Creek Trail, South Boulder Creek Trail, and the Wonderland Creek Trail — meaning you can travel the city's entire length without crossing a street.",
+    "category": "nature"
+  },
+  {
+    "id": "rapha-group-rides",
+    "stopId": "rapha-boulder",
+    "question": "What is a Rapha Clubhouse, and why does Boulder have one?",
+    "answer": "Rapha is a British cycling apparel brand that opened its first Clubhouse in London in 2012 — the concept being a cafe where cyclists could gather, watch race coverage, organize rides, and buy kit. Boulder is a natural fit: it has more cycling infrastructure per capita than most US cities, sits at the base of some of the best road climbing in Colorado, and has a culture that takes cycling as seriously as coffee. The weekly group rides from the Pearl Street Clubhouse draw regulars year-round.",
+    "category": "culture"
+  },
+  {
+    "id": "cu-buffs-stadium",
+    "stopId": "rosetta-hall",
+    "question": "What is Folsom Field and who is it named after?",
+    "answer": "Folsom Field is the University of Colorado football stadium, opened in 1924 and expanded several times since. It's named after Fred Folsom, a CU football coach from 1895 to 1899 and again from 1908 to 1915, who built the program into a regional power. Current capacity is around 50,000. The stadium sits about a mile southeast of Pearl Street — close enough to walk. The Buffaloes are in the Pac-12. Ralphie, the live buffalo mascot, runs the field before kickoff.",
     "category": "history"
   }
 ]

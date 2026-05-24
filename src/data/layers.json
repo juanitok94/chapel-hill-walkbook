@@ -2,73 +2,65 @@
   {
     "id": "coffee",
     "label": "Coffee",
-    "color": "#8B5E3A",
-    "bg": "#F5EDD8",
     "icon": "☕",
-    "passportLayer": true,
-    "description": "The 10 core passport stops plus bonus hidden stamps"
+    "color": "#CFB87C",
+    "description": "10 core passport stops along Pearl Street and the corridor.",
+    "alwaysOn": true
+  },
+  {
+    "id": "dispensaries",
+    "label": "Dispensaries",
+    "icon": "🌿",
+    "color": "#4A7C59",
+    "description": "5 independent dispensaries — old, local, non-chain.",
+    "alwaysOn": false
+  },
+  {
+    "id": "trails",
+    "label": "Trails",
+    "icon": "🏔️",
+    "color": "#000000",
+    "description": "Boulder Creek Path and Chautauqua — hike in, walk the mall, hike out.",
+    "alwaysOn": false
   },
   {
     "id": "restaurants",
     "label": "Restaurants",
-    "color": "#2A7A4A",
-    "bg": "#EAF3DE",
-    "icon": "🍽",
-    "passportLayer": false,
-    "description": "Restaurants and eateries on Franklin and Main"
+    "icon": "🍽️",
+    "color": "#8B3A2E",
+    "description": "Food worth stopping for along and near Pearl Street.",
+    "alwaysOn": false
   },
   {
     "id": "bars",
     "label": "Bars",
-    "color": "#1A3A6A",
-    "bg": "#E6EDF8",
-    "icon": "🍸",
-    "passportLayer": false,
-    "description": "Bars and craft cocktail rooms"
+    "icon": "🍺",
+    "color": "#5C3A1A",
+    "description": "Pearl Street and Walnut Street bar corridor.",
+    "alwaysOn": false
   },
   {
     "id": "music",
     "label": "Music",
-    "color": "#5C1A2A",
-    "bg": "#F5E6E8",
     "icon": "🎸",
-    "passportLayer": false,
-    "description": "Live music venues"
-  },
-  {
-    "id": "museums",
-    "label": "Museums",
-    "color": "#1A3A6A",
-    "bg": "#E6EDF8",
-    "icon": "🏛",
-    "passportLayer": false,
-    "description": "Museums and cultural institutions"
-  },
-  {
-    "id": "arts",
-    "label": "Arts",
-    "color": "#2A4A2A",
-    "bg": "#EAF3DE",
-    "icon": "🎨",
-    "passportLayer": false,
-    "description": "Art spaces and galleries"
+    "color": "#2A1A6A",
+    "description": "Live music venues and the Chautauqua Auditorium concert series.",
+    "alwaysOn": false
   },
   {
     "id": "shops",
     "label": "Shops",
-    "color": "#5C3A1A",
-    "bg": "#F5EDD8",
-    "icon": "📚",
-    "passportLayer": false,
-    "description": "Bookstores and independent shops"
+    "icon": "🛍️",
+    "color": "#4A3A2A",
+    "description": "Independent boutiques and notable shops along Pearl Street.",
+    "alwaysOn": false
   },
   {
-    "id": "attractions",
-    "label": "Attractions",
-    "color": "#1A3A6A",
-    "bg": "#E6EDF8",
-    "icon": "⭐",
-    "passportLayer": false,
-    "description": "Landmarks and must-see stops"
+    "id": "books",
+    "label": "Books",
+    "icon": "📚",
+    "color": "#1A3A1A",
+    "description": "Bookstores on and near the corridor.",
+    "alwaysOn": false
   }
 ]

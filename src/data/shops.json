@@ -1,630 +1,801 @@
 [
   {
-    "id": "cats-cradle",
-    "name": "Cat's Cradle",
-    "address": "300 E Main St",
-    "city": "Carrboro",
-    "state": "NC",
-    "zip": "27510",
-    "coordinates": [
-      -79.0756,
-      35.9104
-    ],
-    "layers": [
-      "music",
-      "attractions"
-    ],
-    "zone": "south",
-    "rating": 4.7,
-    "reviewCount": 1200,
+    "id": "ozo-coffee",
+    "name": "OZO Coffee",
+    "address": "1015 Pearl St",
+    "city": "Boulder",
+    "state": "CO",
+    "zip": "80302",
+    "coordinates": [-105.282169, 40.017564],
+    "layers": ["coffee"],
+    "zone": "west",
+    "rating": 4.6,
+    "reviewCount": 915,
     "hours": {
-      "mon": "7PM–11PM",
-      "tue": "7PM–11PM",
-      "wed": "7PM–11PM",
-      "thu": "7PM–11PM",
-      "fri": "7PM–12AM",
-      "sat": "7PM–12AM",
-      "sun": "7PM–11PM",
-      "note": "Showtime-based. Verify event calendar before visiting."
+      "mon": "6AM–6PM",
+      "tue": "6AM–6PM",
+      "wed": "6AM–6PM",
+      "thu": "6AM–6PM",
+      "fri": "6AM–6PM",
+      "sat": "6AM–6PM",
+      "sun": "7AM–6PM",
+      "note": "Earliest open on Pearl Street. Verify current hours before visiting."
     },
     "passportStop": 1,
     "passportType": "core",
     "streetSide": "south",
-    "selloColor": "#56A0D3",
-    "selloPersonality": "Indie venue marquee stamp, worn and beloved, Carrboro pride",
+    "selloColor": "#CFB87C",
+    "selloPersonality": "Local roaster stamp, West Pearl anchor, specialty pour-overs",
     "hygge": false,
     "stamp": {
-      "welcomeLine": "You found Cat's Cradle 🎸",
-      "subLine": "The reason the west end matters. Music has always been here."
+      "welcomeLine": "You found OZO ☕",
+      "subLine": "West Pearl's anchor roaster. The pour-over is the move."
     },
     "story": {
-      "headline": "North Carolina's most beloved small venue. The walk starts here.",
-      "body": "Cat's Cradle opened in Chapel Hill in 1969 and moved to Carrboro in 1993. It has hosted Nirvana, Arcade Fire, Wilco, and hundreds of artists who were about to become something. The 700-capacity room still feels intimate. The sound is the best in the Triangle. Starting the Franklin Street walk at Cat's Cradle means admitting that the corridor between Carrboro and Chapel Hill is one thing, not two.",
-      "insiderTip": "The Tuesday and Wednesday shows are where locals go — smaller crowds, better sight lines, and the bands are often tighter because they're not playing to a packed weekend room. The beer list is better than you'd expect from a venue this size.",
-      "parkingNote": "Free parking on E Main St and surrounding Carrboro streets. Short walk to the Franklin Street corridor."
+      "headline": "The roaster that anchors west Pearl Street.",
+      "body": "OZO has been roasting in Boulder since 2007 and their West Pearl location is the natural start of the corridor. This is a serious coffee operation — single-origin pour-overs, ceremonial matcha, and a calm minimalist space that doesn't try too hard. The staff know their beans and will walk you through the options without making you feel tested.",
+      "insiderTip": "Ask what single-origin pour-overs are on today. They'll let you smell the beans before you choose. The honey lavender latte has a following.",
+      "parkingNote": "West Pearl Street parking. Metered weekdays, easier on weekends."
     },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [
-      "als-burger-shack",
-      "lantern"
-    ],
+    "offer": { "active": false, "type": "verbal", "text": "", "reward": "" },
+    "nearbyPassportStops": ["amante-coffee", "trident-booksellers"],
     "multiLayer": false,
-    "instagram": "catscradlenc",
-    "website": "https://catscradle.com/",
-    "placeId": null,
+    "instagram": "ozocoffee",
+    "website": "https://ozocoffee.com",
+    "placeId": "ChIJhSE25ibsa4cREVN1cLEOh14",
     "status": "confirmed-open",
-    "lastVerified": "2026-05-16"
+    "lastVerified": "2026-05-23"
   },
   {
-    "id": "als-burger-shack",
-    "name": "Al's Burger Shack",
-    "address": "516 W Franklin St",
-    "city": "Chapel Hill",
-    "state": "NC",
-    "zip": "27516",
-    "coordinates": [
-      -79.0613,
-      35.9134
-    ],
-    "layers": [
-      "restaurants"
-    ],
-    "zone": "south",
-    "rating": 4.6,
-    "reviewCount": 1800,
+    "id": "amante-coffee",
+    "name": "Amante Coffee",
+    "address": "1023 Walnut St",
+    "city": "Boulder",
+    "state": "CO",
+    "zip": "80302",
+    "coordinates": [-105.2815562, 40.016619],
+    "layers": ["coffee"],
+    "zone": "west",
+    "rating": 4.4,
+    "reviewCount": 212,
     "hours": {
-      "mon": "11AM–9PM",
-      "tue": "11AM–9PM",
-      "wed": "11AM–9PM",
-      "thu": "11AM–9PM",
-      "fri": "11AM–10PM",
-      "sat": "11AM–10PM",
-      "sun": "11AM–9PM",
-      "note": "Verify current hours before visiting."
+      "mon": "7:30AM–3:30PM",
+      "tue": "7:30AM–3:30PM",
+      "wed": "7:30AM–3:30PM",
+      "thu": "7:30AM–3:30PM",
+      "fri": "7:30AM–3:30PM",
+      "sat": "7:30AM–2PM",
+      "sun": "7:30AM–2PM",
+      "note": "Closes early on weekends. Morning stop only."
     },
     "passportStop": 2,
     "passportType": "core",
-    "streetSide": "north",
-    "selloColor": "#56A0D3",
-    "selloPersonality": "Burger counter stamp, West Franklin casualness",
+    "streetSide": "south",
+    "selloColor": "#CFB87C",
+    "selloPersonality": "Northern Italian cafe stamp, Walnut Street corner",
     "hygge": false,
     "stamp": {
-      "welcomeLine": "You found Al's 🍔",
-      "subLine": "The best burger on Franklin. No argument worth having."
+      "welcomeLine": "You found Amante ☕",
+      "subLine": "A slice of Northern Italy on Walnut Street."
     },
     "story": {
-      "headline": "The burger that made Franklin Street stop arguing about food.",
-      "body": "Al's Burger Shack has been voted the best burger in Chapel Hill so many times the discussion is over. The patties are fresh-ground, the buns are right, and the operation is tight. It's a counter spot — order at the window, find a table, eat without ceremony. In a college town full of places trying hard, Al's just is.",
-      "insiderTip": "The line looks long but it moves in under ten minutes — they've got the rhythm down. Locals order the Al's Classic and don't modify it. The counter seats inside are faster than waiting for a patio table.",
-      "parkingNote": "West Franklin St street parking. Metered weekdays, free evenings and weekends."
+      "headline": "Northern Italian coffee culture, one block off Pearl.",
+      "body": "Amante brings an Italian sensibility to Boulder — the cortado is always on point, the outdoor seating is perfect for cyclists arriving from Canyon, and the vibe is calm without being precious. Just off Pearl on Walnut, it draws a mix of regulars and remote workers who know the tables are spaced right for actual work.",
+      "insiderTip": "The outdoor seating faces the street — great for watching the Boulder cycling parade go by. The cortado is the order.",
+      "parkingNote": "Walnut Street street parking. One block south of Pearl."
     },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [
-      "cats-cradle",
-      "lantern"
-    ],
+    "offer": { "active": false, "type": "verbal", "text": "", "reward": "" },
+    "nearbyPassportStops": ["ozo-coffee", "trident-booksellers"],
     "multiLayer": false,
-    "instagram": "alsburgershack",
-    "website": "https://alsburgershack.com/",
-    "placeId": null,
+    "instagram": "amantecoffee",
+    "website": "https://amantecoffee.com",
+    "placeId": "ChIJ_zlWjCbsa4cR89Eb1phQDAg",
     "status": "confirmed-open",
-    "lastVerified": "2026-05-16"
+    "lastVerified": "2026-05-23"
   },
   {
-    "id": "lantern",
-    "name": "Lantern",
-    "address": "423 W Franklin St",
-    "city": "Chapel Hill",
-    "state": "NC",
-    "zip": "27516",
-    "coordinates": [
-      -79.0601,
-      35.9134
-    ],
-    "layers": [
-      "restaurants"
-    ],
-    "zone": "south",
+    "id": "trident-booksellers",
+    "name": "Trident Booksellers & Cafe",
+    "address": "940 Pearl St",
+    "city": "Boulder",
+    "state": "CO",
+    "zip": "80302",
+    "coordinates": [-105.28299179999999, 40.0171546],
+    "layers": ["coffee", "books"],
+    "zone": "west",
     "rating": 4.7,
-    "reviewCount": 890,
+    "reviewCount": 1425,
     "hours": {
-      "mon": "closed",
-      "tue": "5PM–9PM",
-      "wed": "5PM–9PM",
-      "thu": "5PM–9PM",
-      "fri": "5PM–10PM",
-      "sat": "5PM–10PM",
-      "sun": "closed",
-      "note": "Reservations recommended. Verify current hours before visiting."
+      "mon": "7AM–9PM",
+      "tue": "7AM–9PM",
+      "wed": "7AM–9PM",
+      "thu": "7AM–9PM",
+      "fri": "7AM–9PM",
+      "sat": "7AM–9PM",
+      "sun": "7AM–9PM",
+      "note": "Open every day. One of the longest hours on Pearl."
     },
     "passportStop": 3,
     "passportType": "core",
-    "streetSide": "south",
-    "selloColor": "#56A0D3",
-    "selloPersonality": "James Beard nominated, West Franklin dignity, lantern glow mark",
+    "streetSide": "north",
+    "selloColor": "#CFB87C",
+    "selloPersonality": "OG Boulder stamp, bookstore cafe, no phones inside",
     "hygge": true,
-    "hyggeFactor": {
-      "linger": true,
-      "naturalLight": false,
-      "ownerPresent": false,
-      "outdoorConnection": false,
-      "hiddenArrival": false
-    },
     "stamp": {
-      "welcomeLine": "You found Lantern 🏮",
-      "subLine": "Twenty years on West Franklin. Still the most serious room."
+      "welcomeLine": "You found Trident 📚",
+      "subLine": "The bookstore that made Pearl Street matter."
     },
     "story": {
-      "headline": "Andrea Reusing's twenty-year Franklin Street institution.",
-      "body": "Lantern opened in 2002 and has been a James Beard Award finalist multiple times since. Chef Andrea Reusing built a restaurant around Asian-influenced Southern cooking, local farmers, and a room that takes its time. It is the most mature stop on the walk — not a college restaurant, not a bar that serves food, but a proper dining room that happens to be on Franklin Street.",
-      "insiderTip": "The seasonal menu changes with what Andrea's farm network has that week. Locals ask what came in before they order. The wine list is short and curated — ask for a recommendation rather than scanning the whole thing.",
-      "parkingNote": "West Franklin St street parking. Metered. Short walk from the Carrboro end."
+      "headline": "The original Boulder coffee shop. Bookstore and cafe, inseparable.",
+      "body": "Trident is OG Boulder. The bookstore came first — carefully curated, not algorithmic — and the cafe grew around it. Signs ask you not to use your phone inside. The covered patio works in the rain. The live music in back is a surprise the first time. This is the stop that tells you what Boulder actually values: books, coffee, conversation, and a little deliberate slowness.",
+      "insiderTip": "Browse the used section before you order. The staff have opinions on the books and will share them. Happy hour on beer is real.",
+      "parkingNote": "Pearl Street Mall — use the public parking structures on Walnut or Canyon."
     },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [
-      "als-burger-shack",
-      "the-crunkleton"
-    ],
-    "multiLayer": false,
-    "instagram": "lanternrestaurant",
-    "website": "https://www.lanternrestaurant.com/",
-    "placeId": null,
+    "offer": { "active": false, "type": "verbal", "text": "", "reward": "" },
+    "nearbyPassportStops": ["ozo-coffee", "laughing-goat"],
+    "multiLayer": true,
+    "instagram": "tridentboulderco",
+    "website": "https://tridentcafe.com",
+    "placeId": "ChIJHSJLxCbsa4cRkw2E3vTDfzU",
     "status": "confirmed-open",
-    "lastVerified": "2026-05-16"
+    "lastVerified": "2026-05-23"
   },
   {
-    "id": "the-crunkleton",
-    "name": "The Crunkleton",
-    "address": "320 W Franklin St",
-    "city": "Chapel Hill",
-    "state": "NC",
-    "zip": "27516",
-    "coordinates": [
-      -79.0581,
-      35.9131
-    ],
-    "layers": [
-      "bars",
-      "restaurants"
-    ],
-    "zone": "south",
+    "id": "laughing-goat",
+    "name": "The Laughing Goat",
+    "address": "1709 Pearl St",
+    "city": "Boulder",
+    "state": "CO",
+    "zip": "80302",
+    "coordinates": [-105.2731378, 40.019539699999996],
+    "layers": ["coffee", "music"],
+    "zone": "central",
     "rating": 4.6,
-    "reviewCount": 650,
+    "reviewCount": 1574,
     "hours": {
-      "mon": "5PM–12AM",
-      "tue": "5PM–12AM",
-      "wed": "5PM–12AM",
-      "thu": "5PM–12AM",
-      "fri": "5PM–1AM",
-      "sat": "5PM–1AM",
-      "sun": "5PM–12AM",
-      "note": "Verify current bar and kitchen hours before visiting."
+      "mon": "6:30AM–6PM",
+      "tue": "6:30AM–6PM",
+      "wed": "6:30AM–6PM",
+      "thu": "6:30AM–6PM",
+      "fri": "6:30AM–6PM",
+      "sat": "7AM–6PM",
+      "sun": "7AM–6PM",
+      "note": "Early opener. Good pre-hike stop."
     },
     "passportStop": 4,
     "passportType": "core",
     "streetSide": "north",
-    "selloColor": "#56A0D3",
-    "selloPersonality": "Serious cocktail bar stamp, bottles and brass, adult Franklin St",
+    "selloColor": "#CFB87C",
+    "selloPersonality": "Central Pearl stamp, open mic, Ethiopian coffee fable",
     "hygge": false,
     "stamp": {
-      "welcomeLine": "You found The Crunkleton 🍸",
-      "subLine": "The most serious cocktail room on Franklin Street."
+      "welcomeLine": "You found The Laughing Goat 🐐",
+      "subLine": "Named after an Ethiopian coffee legend. The sidewalk is the point."
     },
     "story": {
-      "headline": "Not a college bar. The cocktail room Franklin Street needed.",
-      "body": "The Crunkleton opened in 2008 and immediately occupied a niche Franklin Street didn't know it was missing: a serious craft cocktail bar with no TVs, no beer pong, and a back bar that took a decade to curate. The spirits selection is extraordinary. The bartenders know what they're doing. It's the place you bring someone you want to have a real conversation with.",
-      "insiderTip": "No TVs, no loud music, no sports crowd. Locals use it for conversations they actually want to have. The rye selection in the back bar is one of the best in the Triangle — ask what's new rather than defaulting to a recognizable label.",
-      "parkingNote": "West Franklin St street parking. Metered."
+      "headline": "The Pearl Street community hub. Named after a coffee fable.",
+      "body": "The Laughing Goat takes its name from an Ethiopian legend about a goat herder who noticed his goats dancing after eating coffee berries — the origin story of coffee itself. The cafe earns that name: open mic sessions, glass doors that fold open onto Pearl Street in warm weather, a bulletin board that tells you more about Boulder than any guide. It's a living room for the corridor.",
+      "insiderTip": "Check the bulletin board for events. The blueberry pastry is legitimately excellent. Dogs welcome on the patio.",
+      "parkingNote": "Central Pearl Street. Use the public parking structures."
     },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [
-      "lantern",
-      "epilogue-books"
-    ],
+    "offer": { "active": false, "type": "verbal", "text": "", "reward": "" },
+    "nearbyPassportStops": ["trident-booksellers", "suti-co"],
     "multiLayer": true,
-    "instagram": "thecrunkleton",
-    "website": "https://thecrunkleton.com/chapel-hill/",
-    "placeId": null,
+    "instagram": "thelaughinggoatboulder",
+    "website": "https://thelaughinggoat.com",
+    "placeId": "ChIJN_-jnSnsa4cRDDn5vjGB7JU",
     "status": "confirmed-open",
-    "lastVerified": "2026-05-16"
+    "lastVerified": "2026-05-23"
   },
   {
-    "id": "epilogue-books",
-    "name": "Epilogue Books Chocolate Brews",
-    "address": "109 E Franklin St",
-    "city": "Chapel Hill",
-    "state": "NC",
-    "zip": "27514",
-    "coordinates": [
-      -79.0553,
-      35.9129
-    ],
-    "layers": [
-      "coffee",
-      "shops"
-    ],
-    "zone": "south",
-    "rating": 4.8,
-    "reviewCount": 420,
+    "id": "suti-co",
+    "name": "Süti & Co.",
+    "address": "2031 16th St",
+    "city": "Boulder",
+    "state": "CO",
+    "zip": "80302",
+    "coordinates": [-105.2752787, 40.0195885],
+    "layers": ["coffee"],
+    "zone": "central",
+    "rating": 4.5,
+    "reviewCount": 267,
     "hours": {
-      "mon": "8AM–9PM",
-      "tue": "8AM–9PM",
-      "wed": "8AM–9PM",
-      "thu": "8AM–9PM",
-      "fri": "8AM–10PM",
-      "sat": "8AM–10PM",
-      "sun": "8AM–8PM",
-      "note": "Verify current café and bookstore hours before visiting."
+      "mon": "8AM–4PM",
+      "tue": "8AM–4PM",
+      "wed": "8AM–4PM",
+      "thu": "8AM–4PM",
+      "fri": "8AM–4PM",
+      "sat": "9AM–5PM",
+      "sun": "9AM–5PM",
+      "note": "Half block off Pearl on 16th. Closed Monday."
     },
     "passportStop": 5,
     "passportType": "core",
-    "streetSide": "south",
-    "selloColor": "#56A0D3",
-    "selloPersonality": "Books and chocolate stamp, Franklin St renewal energy",
+    "streetSide": "east",
+    "selloColor": "#CFB87C",
+    "selloPersonality": "Scandinavian cottage stamp, half block off Pearl, the detour worth making",
     "hygge": true,
-    "hyggeFactor": {
-      "linger": true,
-      "naturalLight": true,
-      "ownerPresent": true,
-      "outdoorConnection": false,
-      "hiddenArrival": false
-    },
     "stamp": {
-      "welcomeLine": "You found Epilogue 📚",
-      "subLine": "Books, coffee, churros. Franklin Street renewing itself."
+      "welcomeLine": "You found Süti ✨",
+      "subLine": "The coziest half-block detour on the walk."
     },
     "story": {
-      "headline": "Books, coffee, chocolate, and the feeling Franklin Street isn't done yet.",
-      "body": "Epilogue Books Chocolate Brews opened on East Franklin and immediately felt like the street was trying something new without abandoning what it always was. Books, specialty coffee, artisan chocolate drinks, and churros in one room. It works because the owner built it as a place for people to stay, not pass through. The Franklin Street window seat is one of the best spots in Chapel Hill.",
-      "insiderTip": "The window seat on Franklin Street fills by 10am on weekdays. Locals who work from here arrive before 9. The churros with chocolate sauce are the order — the specialty hot chocolate is bitter and complex, not sweet. The book selection skews literary and local.",
-      "parkingNote": "East Franklin St street parking and nearby decks. Metered weekdays."
+      "headline": "A Scandinavian cottage, half a block off Pearl. The hygge stop.",
+      "body": "Süti is in a converted brick cottage on 16th — you have to know to turn off Pearl to find it. Scandinavian decor, olive oil cakes baked in-house, Boxcar beans, acoustic piano some weekends. Female-owned and operated. It's the stop that rewards people who are actually walking rather than rushing. The vanilla, burnt honey, and cinnamon latte has a devoted following.",
+      "insiderTip": "The orange cardamom latte is unlike anything else on the walk. The homewares inside are worth browsing — owner Andrea curates them. Go on a weekend morning for the full experience.",
+      "parkingNote": "16th Street, half block off Pearl. Street parking usually available."
     },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [
-      "the-crunkleton",
-      "carolina-coffee-shop"
-    ],
-    "multiLayer": true,
-    "instagram": "epiloguebooksch",
-    "website": "https://epiloguebookcafe.com/",
-    "placeId": null,
+    "offer": { "active": false, "type": "verbal", "text": "", "reward": "" },
+    "nearbyPassportStops": ["laughing-goat", "creature-comforts"],
+    "multiLayer": false,
+    "instagram": "sutiandco",
+    "website": "https://sutiandco.com",
+    "placeId": "ChIJWZKOYtLta4cRGzqs-LcW2jA",
     "status": "confirmed-open",
-    "lastVerified": "2026-05-16"
+    "lastVerified": "2026-05-23"
   },
   {
-    "id": "carolina-coffee-shop",
-    "name": "Carolina Coffee Shop",
-    "address": "138 E Franklin St",
-    "city": "Chapel Hill",
-    "state": "NC",
-    "zip": "27514",
-    "coordinates": [
-      -79.0546,
-      35.9128
-    ],
-    "layers": [
-      "restaurants",
-      "coffee"
-    ],
-    "zone": "north",
-    "rating": 4.4,
-    "reviewCount": 780,
+    "id": "creature-comforts",
+    "name": "Creature Comforts Cafe",
+    "address": "1647 Pearl St Unit 2",
+    "city": "Boulder",
+    "state": "CO",
+    "zip": "80302",
+    "coordinates": [-105.27374479999999, 40.019383999999995],
+    "layers": ["coffee", "bars"],
+    "zone": "central",
+    "rating": 4.6,
+    "reviewCount": 161,
     "hours": {
-      "mon": "8AM–3PM",
-      "tue": "8AM–3PM",
-      "wed": "8AM–3PM",
-      "thu": "8AM–3PM",
-      "fri": "8AM–3PM",
-      "sat": "8AM–3PM",
-      "sun": "8AM–3PM",
-      "note": "Breakfast and brunch daily. Verify current hours before visiting."
+      "mon": "Closed",
+      "tue": "8AM–6PM",
+      "wed": "8AM–6PM",
+      "thu": "8AM–6PM",
+      "fri": "8AM–6PM",
+      "sat": "8AM–6PM",
+      "sun": "8AM–4PM",
+      "note": "Closed Monday. Open until 6PM — the evening coffee stop."
     },
     "passportStop": 6,
     "passportType": "core",
     "streetSide": "north",
-    "selloColor": "#56A0D3",
-    "selloPersonality": "Century-old diner stamp, soda fountain bones, alumni time machine",
-    "hygge": true,
-    "hyggeFactor": {
-      "linger": true,
-      "naturalLight": true,
-      "ownerPresent": false,
-      "outdoorConnection": false,
-      "hiddenArrival": false
-    },
+    "selloColor": "#CFB87C",
+    "selloPersonality": "No-tip cafe stamp, coffee and wine, the evening pivot",
+    "hygge": false,
     "stamp": {
-      "welcomeLine": "You found Carolina Coffee ☕",
-      "subLine": "Breakfast on Franklin since before anyone can remember."
+      "welcomeLine": "You found Creature Comforts 🦎",
+      "subLine": "Coffee until 6. Then wine. No tips — they pay their people right."
     },
     "story": {
-      "headline": "The alumni time machine. Over a century on Franklin Street.",
-      "body": "Carolina Coffee Shop is North Carolina's oldest restaurant — still serving breakfast and brunch on East Franklin in the same bones it has occupied for more than a century. The booths are original. The counter feels like it always has. For anyone who went to UNC, this is the first test of whether Franklin Street still recognizes you. It does.",
-      "insiderTip": "Come on a weekday morning before 9 — the room feels like it belongs to the neighborhood, not the campus. Counter seats have the best energy. The staff has been here long enough to know the regulars by order.",
-      "parkingNote": "East Franklin St street parking. Metered weekdays."
+      "headline": "The cafe that transitions into evening. No tipping, fair wages.",
+      "body": "Creature Comforts was one of the first Boulder cafes to go gratuity-included — they pay a fair wage and price accordingly. The miso cardamom latte is genuinely inventive. Open until 6PM most days, it's the natural pivot point between the afternoon coffee walk and an evening on Pearl. Beer and wine after 4PM make it the only stop on the passport that earns two visits in one day.",
+      "insiderTip": "The no-tip policy is real and the staff appreciate you knowing it. The miso cardamom latte is the order. Come back after 4PM for wine.",
+      "parkingNote": "Central Pearl Street. Public parking structures nearby."
     },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [
-      "epilogue-books",
-      "suttons-drug-store"
-    ],
+    "offer": { "active": false, "type": "verbal", "text": "", "reward": "" },
+    "nearbyPassportStops": ["suti-co", "rosetta-hall"],
     "multiLayer": true,
-    "instagram": "carolinacoffeeshop",
-    "website": "https://www.carolinacoffeeshop.com/",
-    "placeId": null,
+    "instagram": "creaturecomfortscafe",
+    "website": "",
+    "placeId": "ChIJiTgxMG7ta4cRS75WiMwPRhg",
     "status": "confirmed-open",
-    "lastVerified": "2026-05-16"
+    "lastVerified": "2026-05-23"
   },
   {
-    "id": "suttons-drug-store",
-    "name": "Sutton's Drug Store",
-    "address": "159 E Franklin St",
-    "city": "Chapel Hill",
-    "state": "NC",
-    "zip": "27514",
-    "coordinates": [
-      -79.0543,
-      35.9127
-    ],
-    "layers": [
-      "restaurants",
-      "shops"
-    ],
-    "zone": "north",
-    "rating": 4.5,
-    "reviewCount": 480,
+    "id": "rosetta-hall",
+    "name": "Rosetta Hall",
+    "address": "1109 Walnut St",
+    "city": "Boulder",
+    "state": "CO",
+    "zip": "80302",
+    "coordinates": [-105.28067829999999, 40.017081999999995],
+    "layers": ["coffee", "restaurants", "bars"],
+    "zone": "central",
+    "rating": 4.4,
+    "reviewCount": 1077,
     "hours": {
-      "mon": "7AM–4PM",
+      "mon": "11AM–10PM",
+      "tue": "11AM–10PM",
+      "wed": "11AM–10PM",
+      "thu": "11AM–1AM",
+      "fri": "11AM–1AM",
+      "sat": "11AM–1AM",
+      "sun": "11AM–10PM",
+      "note": "Food hall — coffee in morning, full food and bar all day. Rooftop by reservation."
+    },
+    "passportStop": 7,
+    "passportType": "core",
+    "streetSide": "south",
+    "selloColor": "#CFB87C",
+    "selloPersonality": "Food hall stamp, rooftop Pearl Street views, international stalls",
+    "hygge": false,
+    "stamp": {
+      "welcomeLine": "You found Rosetta Hall 🌍",
+      "subLine": "The rooftop is the move. International food stalls, one building."
+    },
+    "story": {
+      "headline": "Boulder's food hall. Rooftop views of Pearl Street, international stalls inside.",
+      "body": "Rosetta Hall is the social hub of the Pearl Street corridor — a food hall with international stalls, a serious whiskey bar, and a rooftop with lounge beds and fire pits. It gets clubby late on weekends but daytime is relaxed and excellent for a proper lunch between coffee stops. The cucumber salad and the cocktails are the consistent highlights.",
+      "insiderTip": "The rooftop requires a reservation on weekends but is often walk-in on weekdays. The whiskey selection is exceptional — ask what's open. Public parking across the street is $3 and free on weekends.",
+      "parkingNote": "Public parking structure across Walnut St. $3 weekdays, free weekends."
+    },
+    "offer": { "active": false, "type": "verbal", "text": "", "reward": "" },
+    "nearbyPassportStops": ["creature-comforts", "boxcar-coffee"],
+    "multiLayer": true,
+    "instagram": "rosettahallboulder",
+    "website": "https://rosettahall.com",
+    "placeId": "ChIJ4_jo1fDta4cRhdiy6Y8azGQ",
+    "status": "confirmed-open",
+    "lastVerified": "2026-05-23"
+  },
+  {
+    "id": "boxcar-coffee",
+    "name": "Boxcar Coffee",
+    "address": "1825 Pearl St",
+    "city": "Boulder",
+    "state": "CO",
+    "zip": "80302",
+    "coordinates": [-105.2714926, 40.019841199999995],
+    "layers": ["coffee"],
+    "zone": "east",
+    "rating": 4.6,
+    "reviewCount": 1174,
+    "hours": {
+      "mon": "7AM–2PM",
       "tue": "7AM–4PM",
       "wed": "7AM–4PM",
       "thu": "7AM–4PM",
       "fri": "7AM–4PM",
       "sat": "7AM–4PM",
-      "sun": "8AM–3PM",
-      "note": "Verify current hours before visiting."
-    },
-    "passportStop": 7,
-    "passportType": "core",
-    "streetSide": "south",
-    "selloColor": "#56A0D3",
-    "selloPersonality": "Soda fountain stamp, 1923 vintage, photo-covered walls",
-    "hygge": false,
-    "stamp": {
-      "welcomeLine": "You found Sutton's 🥤",
-      "subLine": "Soda fountain since 1923. The walls know everyone."
-    },
-    "story": {
-      "headline": "A soda fountain since 1923. The walls are covered in photos of everyone who's been here.",
-      "body": "Sutton's Drug Store opened in 1923 and has served breakfast, lunch, and milkshakes to everyone from UNC students to Michael Jordan to Barack Obama. The photo wall is a compressed history of Chapel Hill — faces you recognize and faces you don't, all of them regulars. The food is honest and unchanged. The milkshakes are the point.",
-      "insiderTip": "The staff can identify most of the faces in the photo wall if you ask. Locals come for the milkshakes and the pancakes before noon on weekdays — after noon on Saturday the line is out the door. The soda fountain counter is the seat.",
-      "parkingNote": "East Franklin St street parking. Short walk from the parking decks."
-    },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [
-      "carolina-coffee-shop",
-      "top-of-the-hill"
-    ],
-    "multiLayer": true,
-    "instagram": "suttonsdrugstore",
-    "website": "https://www.suttonsdrugstore.com/",
-    "placeId": null,
-    "status": "confirmed-open",
-    "lastVerified": "2026-05-16"
-  },
-  {
-    "id": "top-of-the-hill",
-    "name": "Top of the Hill Restaurant & Brewery",
-    "address": "100 E Franklin St",
-    "city": "Chapel Hill",
-    "state": "NC",
-    "zip": "27514",
-    "coordinates": [
-      -79.0557,
-      35.913
-    ],
-    "layers": [
-      "restaurants",
-      "bars"
-    ],
-    "zone": "north",
-    "rating": 4.3,
-    "reviewCount": 1400,
-    "hours": {
-      "mon": "11AM–10PM",
-      "tue": "11AM–10PM",
-      "wed": "11AM–10PM",
-      "thu": "11AM–10PM",
-      "fri": "11AM–11PM",
-      "sat": "11AM–11PM",
-      "sun": "11AM–10PM",
-      "note": "Rooftop bar and restaurant. Verify current hours before visiting."
+      "sun": "8AM–4PM",
+      "note": "Closes early — morning and midday only. Short Monday hours."
     },
     "passportStop": 8,
     "passportType": "core",
     "streetSide": "north",
-    "selloColor": "#56A0D3",
-    "selloPersonality": "Franklin and Columbia corner stamp, rooftop brewery, 1994",
+    "selloColor": "#CFB87C",
+    "selloPersonality": "Precision roaster stamp, East Pearl, shared space with Cured",
     "hygge": false,
     "stamp": {
-      "welcomeLine": "You found Top of the Hill 🍺",
-      "subLine": "The Franklin and Columbia corner. One of NC's first craft breweries."
+      "welcomeLine": "You found Boxcar ☕",
+      "subLine": "Precision coffee. The cinnamon roll is croissant dough. Order it."
     },
     "story": {
-      "headline": "The corner that anchors Franklin Street. One of North Carolina's first craft breweries.",
-      "body": "Top of the Hill opened in 1994 at the most prominent corner on Franklin Street — Franklin and Columbia, looking out at the UNC campus. It was one of the first craft breweries in North Carolina. The rooftop deck is the best outdoor seat on Franklin Street. The beer is brewed on site. The food is solid. It's the place that makes you understand why people come back to Chapel Hill.",
-      "insiderTip": "The rooftop fills fast on weekend afternoons. Locals request a rooftop table when they call ahead rather than hoping for a walk-in. The Ram's Head IPA is the house beer — it's brewed on site and it tastes better here than in a can.",
-      "parkingNote": "Franklin St parking deck on Henderson St. Short walk."
+      "headline": "Boulder's most serious coffee shop. Shared with a gourmet sandwich counter.",
+      "body": "Boxcar is where you go when you actually care about coffee. Own roasts, precision extraction, ethically sourced beans, and a baking program that produces one of the best cinnamon rolls in Colorado — croissant dough, not brioche, with cream cheese frosting that earns its place. Shares the space with Cured, a gourmet meat and cheese counter. The seasonal Black Velvet drink has a following.",
+      "insiderTip": "Get the cinnamon roll. Get the seasonal special. The Tuesday morning run group is a Boulder institution — don't be surprised by a crowd of cyclists.",
+      "parkingNote": "East Pearl Street. Street parking or the public structures back west."
     },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [
-      "suttons-drug-store",
-      "ackland-art-museum"
-    ],
-    "multiLayer": true,
-    "instagram": "topofthehill",
-    "website": "https://www.thetopofthehill.com/",
-    "placeId": null,
+    "offer": { "active": false, "type": "verbal", "text": "", "reward": "" },
+    "nearbyPassportStops": ["rapha-boulder", "fresh-baked"],
+    "multiLayer": false,
+    "instagram": "boxcarcoffeeroasters",
+    "website": "https://boxcarcoffeeroasters.com",
+    "placeId": "ChIJX-Z3Mirsa4cR9WwdAf6suU0",
     "status": "confirmed-open",
-    "lastVerified": "2026-05-16"
+    "lastVerified": "2026-05-23"
   },
   {
-    "id": "ackland-art-museum",
-    "name": "Ackland Art Museum",
-    "address": "101 S Columbia St",
-    "city": "Chapel Hill",
-    "state": "NC",
-    "zip": "27514",
-    "coordinates": [
-      -79.0556,
-      35.9121
-    ],
-    "layers": [
-      "museums",
-      "arts"
-    ],
-    "zone": "north",
-    "rating": 4.7,
-    "reviewCount": 310,
+    "id": "rapha-boulder",
+    "name": "Rapha Boulder",
+    "address": "1815 Pearl St",
+    "city": "Boulder",
+    "state": "CO",
+    "zip": "80302",
+    "coordinates": [-105.27158250000001, 40.0198646],
+    "layers": ["coffee", "shops"],
+    "zone": "east",
+    "rating": 4.5,
+    "reviewCount": 107,
     "hours": {
-      "mon": "closed",
-      "tue": "10AM–5PM",
-      "wed": "10AM–5PM",
-      "thu": "10AM–5PM",
-      "fri": "10AM–5PM",
-      "sat": "10AM–5PM",
-      "sun": "1PM–5PM",
-      "note": "Free admission. Verify current hours before visiting."
+      "mon": "8AM–5PM",
+      "tue": "8AM–5PM",
+      "wed": "8AM–5PM",
+      "thu": "8AM–5PM",
+      "fri": "8AM–5PM",
+      "sat": "8AM–5PM",
+      "sun": "8AM–5PM",
+      "note": "Open daily. Group rides several times per week — check schedule."
     },
     "passportStop": 9,
     "passportType": "core",
-    "streetSide": "west",
-    "selloColor": "#56A0D3",
-    "selloPersonality": "UNC art museum stamp, campus edge, free admission",
+    "streetSide": "north",
+    "selloColor": "#CFB87C",
+    "selloPersonality": "Cycling club cafe stamp, East Pearl, espresso and kit",
     "hygge": false,
     "stamp": {
-      "welcomeLine": "You found the Ackland 🎨",
-      "subLine": "Free. Campus edge. Better than you expect."
+      "welcomeLine": "You found Rapha 🚴",
+      "subLine": "Cycling club meets cafe. The espresso is serious. The kit is expensive."
     },
     "story": {
-      "headline": "UNC's free art museum. Better than most people know.",
-      "body": "The Ackland Art Museum sits at the Franklin and Columbia edge of UNC's campus — free, accessible, and consistently underestimated. The permanent collection spans 5,000 years of art history. The Asian art collection is exceptional. The rotating exhibitions bring work from major institutions. If you're walking Franklin Street and not walking into the Ackland, you're skipping one of the best free hours in Chapel Hill.",
-      "insiderTip": "Free parking in the lot behind the museum on weekdays. Locals use the Asian art gallery on the second floor as the quiet room — the woodblock print collection is world-class and most visitors don't make it up there.",
-      "parkingNote": "UNC campus parking behind museum on weekdays. Metered on Franklin."
+      "headline": "Part cycling club, part cafe, part clothing store. Very Boulder.",
+      "body": "Rapha Clubhouse is where Boulder's cycling culture and coffee culture become the same thing. The espresso is genuine, the space is warm and well-lit, the staff know the roads, and the weekly group rides leave from here. You can work here, watch race footage on the screen, or just sit with a cortado and appreciate that only in Boulder does this combination make complete sense.",
+      "insiderTip": "Check the ride calendar online — even if you're not cycling, the club energy is worth experiencing. The wifi is reliable. The staff will tell you which roads are worth riding.",
+      "parkingNote": "East Pearl Street, next door to Boxcar. Share the same stretch."
     },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [
-      "top-of-the-hill",
-      "morehead-planetarium"
-    ],
+    "offer": { "active": false, "type": "verbal", "text": "", "reward": "" },
+    "nearbyPassportStops": ["boxcar-coffee", "fresh-baked"],
     "multiLayer": true,
-    "instagram": "ackland_art_museum",
-    "website": "https://ackland.org/",
-    "placeId": null,
+    "instagram": "raphacycling",
+    "website": "https://rapha.cc/us/en_US/clubhouses/boulder",
+    "placeId": "ChIJacWFLirsa4cRbHUrkXw5YCg",
     "status": "confirmed-open",
-    "lastVerified": "2026-05-16"
+    "lastVerified": "2026-05-23"
   },
   {
-    "id": "morehead-planetarium",
-    "name": "Morehead Planetarium and Science Center",
-    "address": "250 E Franklin St",
-    "city": "Chapel Hill",
-    "state": "NC",
-    "zip": "27514",
-    "coordinates": [
-      -79.0536,
-      35.9128
-    ],
-    "layers": [
-      "museums",
-      "attractions"
-    ],
-    "zone": "north",
-    "rating": 4.6,
-    "reviewCount": 520,
+    "id": "fresh-baked",
+    "name": "Fresh Baked",
+    "address": "2535 Pearl St",
+    "city": "Boulder",
+    "state": "CO",
+    "zip": "80302",
+    "coordinates": [-105.2624592, 40.0217238],
+    "layers": ["coffee", "dispensaries"],
+    "zone": "east",
+    "rating": 4.7,
+    "reviewCount": 1164,
     "hours": {
-      "mon": "closed",
-      "tue": "10AM–5PM",
-      "wed": "10AM–5PM",
-      "thu": "10AM–5PM",
-      "fri": "10AM–5PM",
-      "sat": "10AM–5PM",
-      "sun": "12PM–5PM",
-      "note": "Show times vary. Verify current schedule and hours before visiting."
+      "mon": "9AM–9:50PM",
+      "tue": "9AM–9:50PM",
+      "wed": "9AM–9:50PM",
+      "thu": "9AM–9:50PM",
+      "fri": "9AM–9:50PM",
+      "sat": "9AM–9:50PM",
+      "sun": "9AM–9:50PM",
+      "note": "Open daily. Dual stamp — coffee passport and dispensary layer."
     },
     "passportStop": 10,
     "passportType": "core",
-    "streetSide": "south",
-    "selloColor": "#56A0D3",
-    "selloPersonality": "Planetarium dome stamp, East Franklin landmark, NASA training site",
+    "streetSide": "north",
+    "selloColor": "#CFB87C",
+    "selloPersonality": "East Pearl terminus stamp, OG 2010 dispensary, dual layer anchor",
     "hygge": false,
     "stamp": {
-      "welcomeLine": "You walked Franklin Street 🌟",
-      "subLine": "The dome at the end of the road. NASA trained astronauts here."
+      "welcomeLine": "You found Fresh Baked 🌿",
+      "subLine": "East Pearl end of the line. OG Boulder since 2010. Dual stamp."
     },
     "story": {
-      "headline": "NASA trained astronauts here. The dome anchors the east end of Franklin.",
-      "body": "Morehead Planetarium opened in 1949 and served as a celestial navigation training site for NASA astronauts from the Mercury through Apollo programs. John Glenn and Neil Armstrong trained here. The dome still shows star programs, laser shows, and science exhibits. Standing in front of it at the east end of Franklin Street, you're at the edge of the university and the edge of the walk.",
-      "insiderTip": "The evening star programs fill faster than the daytime shows — book online if you want a specific night. The Rose Garden just outside is free and worth 15 minutes before or after. Locals park on UNC campus on weekends without metering.",
-      "parkingNote": "East Franklin St street parking. End of the line."
+      "headline": "The eastern anchor of Pearl Street. Boulder's original dispensary since 2010.",
+      "body": "Fresh Baked has held the east end of Pearl Street since 2010 — founded in the medical era, converted to recreational in 2014 when Colorado legalized. The converted house it occupies feels like it was always meant for this. It's the natural end of the Pearl Street walk and earns two stamps: coffee passport stop 10 and the dispensary layer anchor. Tax-included pricing, knowledgeable staff, consistent quality.",
+      "insiderTip": "All prices are tax-included — what you see is what you pay. The loyalty program is worth signing up for if you're in Boulder regularly. The chandelier at the entrance is worth noticing.",
+      "parkingNote": "East end of Pearl — street parking more available out here than central Pearl."
     },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [
-      "ackland-art-museum"
-    ],
+    "offer": { "active": false, "type": "verbal", "text": "", "reward": "" },
+    "nearbyPassportStops": ["rapha-boulder", "boxcar-coffee"],
     "multiLayer": true,
-    "instagram": "moreheadplanetarium",
-    "website": "https://moreheadplanetarium.org/",
-    "placeId": null,
+    "instagram": "freshbakedboulder",
+    "website": "https://freshbakedboulder.com",
+    "placeId": "ChIJIXzIuNXta4cRPcL_OMmNg6o",
     "status": "confirmed-open",
-    "lastVerified": "2026-05-16"
+    "lastVerified": "2026-05-23"
+  },
+  {
+    "id": "the-trust-cannabis",
+    "name": "The Trust Cannabis Company",
+    "address": "1537 Pearl St Unit B",
+    "city": "Boulder",
+    "state": "CO",
+    "zip": "80302",
+    "coordinates": [-105.2752117, 40.0191705],
+    "layers": ["dispensaries"],
+    "zone": "central",
+    "rating": 4.7,
+    "reviewCount": 424,
+    "hours": {
+      "mon": "10AM–9:45PM",
+      "tue": "10AM–9:45PM",
+      "wed": "10AM–9:45PM",
+      "thu": "10AM–9:45PM",
+      "fri": "10AM–9:45PM",
+      "sat": "10AM–9:45PM",
+      "sun": "10AM–9:45PM",
+      "note": "Open daily. Most central Pearl Street dispensary."
+    },
+    "passportStop": null,
+    "passportType": "directory",
+    "streetSide": "north",
+    "selloColor": "#CFB87C",
+    "selloPersonality": "Central Pearl dispensary stamp, daily deals, heady brands",
+    "hygge": false,
+    "stamp": {
+      "welcomeLine": "You found The Trust 🌿",
+      "subLine": "Corner of Pearl and 16th. Quality without overcharging."
+    },
+    "story": {
+      "headline": "The most convenient dispensary on Pearl Street. Quality without the markup.",
+      "body": "Tucked on Pearl and 16th, The Trust is the dispensary you find mid-walk — right between the coffee corridor and the east end. Daily deals, heady brands like Allgreens and Green Dot Labs, and budtenders who know the difference between what you say you want and what you actually want. Medical side available in addition to recreational.",
+      "insiderTip": "Check the daily deals online before you walk in — they run some of the best in Boulder. The Silver shelf is notably strong for the price.",
+      "parkingNote": "Central Pearl Street. Public parking structures a short walk."
+    },
+    "offer": { "active": false, "type": "verbal", "text": "", "reward": "" },
+    "nearbyPassportStops": ["laughing-goat", "suti-co"],
+    "multiLayer": false,
+    "instagram": "thetrustcannaco",
+    "website": "https://thetrustcannaco.com",
+    "placeId": "ChIJo639VCjsa4cRof9EbBdmQcA",
+    "status": "confirmed-open",
+    "lastVerified": "2026-05-23"
+  },
+  {
+    "id": "the-health-center",
+    "name": "The Health Center",
+    "address": "537 Canyon Blvd",
+    "city": "Boulder",
+    "state": "CO",
+    "zip": "80302",
+    "coordinates": [-105.2880406, 40.0154681],
+    "layers": ["dispensaries"],
+    "zone": "west",
+    "rating": 4.7,
+    "reviewCount": 291,
+    "hours": {
+      "mon": "9AM–9:50PM",
+      "tue": "9AM–9:50PM",
+      "wed": "9AM–9:50PM",
+      "thu": "9AM–9:50PM",
+      "fri": "9AM–9:50PM",
+      "sat": "9AM–9:50PM",
+      "sun": "9AM–9:50PM",
+      "note": "Verify current hours. Canyon Blvd, just off Pearl."
+    },
+    "passportStop": null,
+    "passportType": "directory",
+    "streetSide": "south",
+    "selloColor": "#CFB87C",
+    "selloPersonality": "Canyon Blvd anchor stamp, longtime independent, loyal regulars",
+    "hygge": false,
+    "stamp": {
+      "welcomeLine": "You found THC 🌿",
+      "subLine": "Canyon Blvd's longtime independent. Regulars drive past 15 others to get here."
+    },
+    "story": {
+      "headline": "The dispensary regulars drive past 15 others to reach.",
+      "body": "The Health Center on Canyon Blvd has the kind of loyal customer base that tells you everything — people pass multiple dispensaries to get here. The staff are genuinely friendly, the product is consistently strong, and the value is real. It's the west-end anchor of the dispensary layer, close to Eben Fine Park and the Boulder Creek trailhead.",
+      "insiderTip": "Ask staff what's fresh this week — they're honest about it. The holiday specials are legitimately good deals.",
+      "parkingNote": "Canyon Blvd. More parking available than central Pearl Street."
+    },
+    "offer": { "active": false, "type": "verbal", "text": "", "reward": "" },
+    "nearbyPassportStops": ["eben-fine-park"],
+    "multiLayer": false,
+    "instagram": "",
+    "website": "https://thchealth.com",
+    "placeId": "ChIJoTwhz-7ta4cRw8iXvCHPmoE",
+    "status": "confirmed-open",
+    "lastVerified": "2026-05-23"
+  },
+  {
+    "id": "maikoh-holistics",
+    "name": "Maikoh Holistics",
+    "address": "2750 Glenwood Dr Suite 8",
+    "city": "Boulder",
+    "state": "CO",
+    "zip": "80304",
+    "coordinates": [-105.25968189999999, 40.0321821],
+    "layers": ["dispensaries"],
+    "zone": "north",
+    "rating": 4.8,
+    "reviewCount": 460,
+    "hours": {
+      "mon": "10AM–8PM",
+      "tue": "10AM–8PM",
+      "wed": "10AM–8PM",
+      "thu": "10AM–8PM",
+      "fri": "10AM–8PM",
+      "sat": "10AM–7:30PM",
+      "sun": "10AM–6PM",
+      "note": "Closes earlier than others — plan accordingly. OG Boulder location."
+    },
+    "passportStop": null,
+    "passportType": "directory",
+    "streetSide": "north",
+    "selloColor": "#CFB87C",
+    "selloPersonality": "Connoisseur stamp, pesticide-free, the destination dispensary",
+    "hygge": false,
+    "stamp": {
+      "welcomeLine": "You found Maikoh 🌿",
+      "subLine": "Pesticide-free, connoisseur flower. People drive an hour for this."
+    },
+    "story": {
+      "headline": "The connoisseur's dispensary. People drive an hour past other shops to get here.",
+      "body": "Maikoh is a destination — the kind of place where the flower selection is updated constantly and smelling each jar is encouraged. Pesticide-free concentrates, thoughtfully sourced, and a quiet vibe that doesn't feel like a retail operation. The OG Boulder location. Reviews consistently say regulars drive from Denver to shop here rather than going to the dispensary around the corner.",
+      "insiderTip": "Go early — it closes earlier than most Boulder dispensaries. The rosin selection is the draw for concentrate enthusiasts. Browse the menu online before visiting.",
+      "parkingNote": "North Boulder off Glenwood Dr. Easy parking — not downtown."
+    },
+    "offer": { "active": false, "type": "verbal", "text": "", "reward": "" },
+    "nearbyPassportStops": [],
+    "multiLayer": false,
+    "instagram": "maikohholistics",
+    "website": "https://maikohholistics.com",
+    "placeId": "ChIJpf_DYp7va4cRFMTwfS1M-_8",
+    "status": "confirmed-open",
+    "lastVerified": "2026-05-23"
+  },
+  {
+    "id": "eben-fine-park",
+    "name": "Eben Fine Park",
+    "address": "101 Arapahoe Ave",
+    "city": "Boulder",
+    "state": "CO",
+    "zip": "80302",
+    "coordinates": [-105.295, 40.0130556],
+    "layers": ["trails"],
+    "zone": "west",
+    "rating": 4.7,
+    "reviewCount": 1909,
+    "hours": {
+      "mon": "5AM–11PM",
+      "tue": "5AM–11PM",
+      "wed": "5AM–11PM",
+      "thu": "5AM–11PM",
+      "fri": "5AM–11PM",
+      "sat": "5AM–11PM",
+      "sun": "5AM–11PM",
+      "note": "Western trailhead of Boulder Creek Path. Gateway to Boulder Canyon."
+    },
+    "passportStop": null,
+    "passportType": "trail",
+    "streetSide": "creek",
+    "selloColor": "#000000",
+    "selloPersonality": "Western trailhead stamp, creek access, canyon gateway",
+    "hygge": false,
+    "stamp": {
+      "welcomeLine": "You found Eben Fine Park 🏔️",
+      "subLine": "Western trailhead. The creek starts here. Boulder Canyon begins."
+    },
+    "story": {
+      "headline": "Where the Boulder Creek Path begins and the canyon opens up.",
+      "body": "Eben Fine Park is the western anchor of the Boulder Creek Path — 5.5 miles of paved multi-use trail that runs east through downtown and out the other side. From here you can wade in the creek, watch tubers in summer, or walk up into Boulder Canyon. Cottonwoods, picnic tables, creek access, and a path that delivers you to Pearl Street with a proper sense of arrival.",
+      "insiderTip": "Come early on summer weekends before the tubers and parking crowd arrive. The path east to Pearl Street takes about 20 minutes on foot — arrive via trail, stamp Pearl Street stops, walk back. That's the Boulder day.",
+      "parkingNote": "Small lot at Arapahoe Ave. Fills fast on summer weekends — arrive by 9AM or use transit."
+    },
+    "offer": { "active": false, "type": "verbal", "text": "", "reward": "" },
+    "nearbyPassportStops": ["the-health-center", "boulder-dushanbe-teahouse"],
+    "multiLayer": false,
+    "instagram": "",
+    "website": "https://bouldercolorado.gov/locations/boulder-creek-path",
+    "placeId": "ChIJm0zy_Bvsa4cRrOlV2b8jExg",
+    "status": "confirmed-open",
+    "lastVerified": "2026-05-23"
+  },
+  {
+    "id": "boulder-dushanbe-teahouse",
+    "name": "Boulder Dushanbe Teahouse",
+    "address": "1770 13th St",
+    "city": "Boulder",
+    "state": "CO",
+    "zip": "80302",
+    "coordinates": [-105.277204, 40.0154553],
+    "layers": ["trails", "restaurants"],
+    "zone": "central",
+    "rating": 4.5,
+    "reviewCount": 4784,
+    "hours": {
+      "mon": "11AM–9PM",
+      "tue": "11AM–9PM",
+      "wed": "11AM–9PM",
+      "thu": "11AM–9PM",
+      "fri": "11AM–9PM",
+      "sat": "8AM–9PM",
+      "sun": "8AM–9PM",
+      "note": "Weekend brunch from 8AM. On the Boulder Creek Path corridor."
+    },
+    "passportStop": null,
+    "passportType": "trail",
+    "streetSide": "creek",
+    "selloColor": "#000000",
+    "selloPersonality": "Creek path midpoint stamp, Tajik gift, handcrafted in Dushanbe",
+    "hygge": true,
+    "stamp": {
+      "welcomeLine": "You found the Teahouse 🍵",
+      "subLine": "A gift from Dushanbe, Tajikistan. The most beautiful building on the path."
+    },
+    "story": {
+      "headline": "A gift from Boulder's sister city in Tajikistan. The jewel of the Creek Path.",
+      "body": "The Dushanbe Teahouse was handcrafted by artisans in Dushanbe, Tajikistan — Boulder's sister city — and reassembled here piece by piece. The interior is extraordinary: hand-painted ceilings, carved columns, ceramic panels. It sits right on the Boulder Creek Path corridor and earns a stop whether you're walking the creek or just on Pearl. The tea selection is serious and the food is genuinely excellent.",
+      "insiderTip": "Sit at the bar if you want to hear the story of the building from the staff — they know it well. Weekend brunch from 8AM is worth the trip. The picked salad and the mousse are the consistent highlights.",
+      "parkingNote": "13th St near Canyon. Easier parking than central Pearl. Short walk to the creek path."
+    },
+    "offer": { "active": false, "type": "verbal", "text": "", "reward": "" },
+    "nearbyPassportStops": ["eben-fine-park", "chautauqua-park"],
+    "multiLayer": true,
+    "instagram": "boulderdushanbe",
+    "website": "https://dushanbe.bouldercolorado.gov",
+    "placeId": "ChIJ4-dlTy_sa4cRd978vIqVG1Y",
+    "status": "confirmed-open",
+    "lastVerified": "2026-05-23"
+  },
+  {
+    "id": "chautauqua-park",
+    "name": "Chautauqua Park",
+    "address": "900 Baseline Rd",
+    "city": "Boulder",
+    "state": "CO",
+    "zip": "80302",
+    "coordinates": [-105.28149959999999, 39.9991996],
+    "layers": ["trails"],
+    "zone": "south",
+    "rating": 4.8,
+    "reviewCount": 5386,
+    "hours": {
+      "mon": "5AM–11PM",
+      "tue": "5AM–11PM",
+      "wed": "5AM–11PM",
+      "thu": "5AM–11PM",
+      "fri": "5AM–11PM",
+      "sat": "5AM–11PM",
+      "sun": "5AM–11PM",
+      "note": "Shuttle available summer weekends. Parking fills by 9AM on busy days."
+    },
+    "passportStop": null,
+    "passportType": "trail",
+    "streetSide": "south",
+    "selloColor": "#000000",
+    "selloPersonality": "Flatirons trailhead stamp, the iconic Boulder hike, meadow and views",
+    "hygge": false,
+    "stamp": {
+      "welcomeLine": "You found Chautauqua 🏔️",
+      "subLine": "The Flatirons. The meadow. The hike that defines Boulder."
+    },
+    "story": {
+      "headline": "The trail that defines Boulder. The Flatirons front and center.",
+      "body": "Chautauqua is where every visit to Boulder eventually arrives. The Chautauqua Trail cuts straight through the historic meadow toward the Flatirons — 1.2 miles out and back, or a gateway to the full trail network beyond. The Dining Hall has been here since 1898. The cabins still rent. The summer concert series at the auditorium is one of the best outdoor music venues in Colorado.",
+      "insiderTip": "Go on a weekday to avoid parking chaos. The shuttle runs summer weekends from downtown — take it. Gregory Canyon Trail is quieter than the main Chautauqua Trail if you want fewer people. Check the concert calendar.",
+      "parkingNote": "Main lot by the auditorium fills fast summer weekends. Street parking on Baseline. Shuttle recommended on busy days."
+    },
+    "offer": { "active": false, "type": "verbal", "text": "", "reward": "" },
+    "nearbyPassportStops": ["chautauqua-dining-hall", "boulder-dushanbe-teahouse"],
+    "multiLayer": false,
+    "instagram": "chautauquaboulder",
+    "website": "https://chautauqua.com",
+    "placeId": "ChIJwd_EEkfsa4cRqy6eShKXFXY",
+    "status": "confirmed-open",
+    "lastVerified": "2026-05-23"
+  },
+  {
+    "id": "chautauqua-dining-hall",
+    "name": "Chautauqua Dining Hall",
+    "address": "900 Baseline Rd",
+    "city": "Boulder",
+    "state": "CO",
+    "zip": "80302",
+    "coordinates": [-105.28067159999999, 39.9984264],
+    "layers": ["trails", "restaurants"],
+    "zone": "south",
+    "rating": 4.4,
+    "reviewCount": 1062,
+    "hours": {
+      "mon": "8AM–9PM",
+      "tue": "8AM–9PM",
+      "wed": "8AM–9PM",
+      "thu": "8AM–9PM",
+      "fri": "8AM–9PM",
+      "sat": "8AM–9PM",
+      "sun": "8AM–9PM",
+      "note": "Open daily from 8AM. Pre- and post-hike dining. Historic 1898 building."
+    },
+    "passportStop": null,
+    "passportType": "trail",
+    "streetSide": "south",
+    "selloColor": "#000000",
+    "selloPersonality": "Historic dining hall stamp, 1898, bison burger, post-hike anchor",
+    "hygge": true,
+    "stamp": {
+      "welcomeLine": "You found the Dining Hall 🦬",
+      "subLine": "1898. Bison burger. You earned it."
+    },
+    "story": {
+      "headline": "The 1898 dining hall at the base of the Flatirons. The post-hike anchor.",
+      "body": "The Chautauqua Dining Hall has been feeding hikers since 1898 — the building is original, the vibe is classic Colorado, and the bison burger is the reason people skip breakfast before the trail. The butternut squash shrimp pasta is the consistent dinner order. Open from 8AM for pre-hike coffee and breakfast, and stays open until 9PM for a proper meal after you come back down.",
+      "insiderTip": "The bison burger is the order. First time eating bison — this is the place to do it. Ask the bartender for the building's history if you get Aspen. Walk-ins usually accommodated for lunch.",
+      "parkingNote": "Same lot as Chautauqua Park trailhead. Arrive early or take the shuttle."
+    },
+    "offer": { "active": false, "type": "verbal", "text": "", "reward": "" },
+    "nearbyPassportStops": ["chautauqua-park"],
+    "multiLayer": true,
+    "instagram": "chautauquaboulder",
+    "website": "https://chautauqua.com/dining",
+    "placeId": "ChIJ9zb1-0bsa4cRcpW_h34lLBU",
+    "status": "confirmed-open",
+    "lastVerified": "2026-05-23"
   }
 ]
